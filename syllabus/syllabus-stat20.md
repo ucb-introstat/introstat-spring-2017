@@ -1,9 +1,9 @@
-## Course Syllabus
+## Course Syllabus Stat 20
 
 Stat 20: Introduction to Probability and Statistics, Spring 2017
 
 - __Instructor:__ Gaston Sanchez, gaston.stat[at]gmail.com
-- __Class Time:__ MWF 12-1pm in VLSB 2050
+- __Class Time:__ MWF 12-1pm in 2050 VLSB
 - __Session Dates:__ 01/18/17 - 05/05/17
 - __Code #:__ 23407
 - __Units:__ 4 (more info [http://classes.berkeley.edu/content/2017-spring-stat-20-001-lec-001](here))
