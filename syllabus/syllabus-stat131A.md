@@ -68,7 +68,7 @@ No individual letter grades will be given for midterm, or final. You will get a 
 ### Email Policy
 
 - You should try to use email as a tool to set up a one-on-one meeting with me if office hours conflict with your schedule.
-- Use the subject line __Stat 20 Meeting Request__.
+- Use the subject line __Stat 131 Meeting Request__.
 - Your message should include at least two times when you would like to meet and a brief (one-two sentence) description of the reason for the meeting.
 - Do NOT expect me to reply right away (I may not reply on time).
 - If you have an emergency, talk to me later during class or office hours.
