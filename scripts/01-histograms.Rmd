@@ -1,0 +1,143 @@
+---
+title: "Histograms"
+subtitle: "Intro to Stats, Spring 2017"
+author: "Prof. Gaston Sanchez"
+output: html_document
+urlcolor: blue
+---
+
+> ### Learning Objectives
+>
+> - Complete installation of R and RStudio
+> - Get started with R as a scientific calculator
+> - First steps using RStudio
+> - Getting help in R
+> - Installing packages
+> - Using R script files
+> - Using Rmd files
+> - Get to know markdown syntax
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+## Histograms
+
+R provides the function `hist()` to compute and plot histograms.
+
+First, let's generate some artificial data. This is done by drawing a ramdon sample---with replacement---of size 100 from the numbers 1 to 10. Note the call of `set.seed()`; this allows us to obtain the same sample (for reproducibility purposes).
+
+```{r data}
+set.seed(201701)
+x = sample(1:10, size = 100, replace = TRUE)
+```
+
+You can use `head()` and/or `tail()` to take a peek to the obtained numbers:
+
+```{r}
+head(x)
+tail(x)
+```
+
+R provides the function `hist()` to compute and plot histograms. You can call it by passing it a vector. Here's the default behavoir of `hist()` on `x`:
+
+```{r}
+hist(x)
+```
+
+To modify the historgam:
+
+```{r}
+hist(x, las = 1, col = 'gray90')
+```
+
+To make the most out of a histogram, it is convenient to store the results in an object:
+
+```{r}
+x_hist = hist(x, las = 1, col = 'gray90', plot = FALSE)
+names(x_hist)
+```
+
+You can inspect the class intervals or bins:
+
+```{r}
+x_hist$breaks
+x_hist$counts
+```
+
+
+## Histograms like in FPP
+
+The type of histograms discussed in the textbook are a bit special. You won't find them in other textbooks. Most statistical software programs provide default settings.
+
+The good news is that R is very powerful, and it allows you to obtain histograms like those displayed in the book.
+
+```{r}
+histogram1 = hist(
+  x, 
+  breaks = seq(from = 0, to = 10, by = 2),
+  las = 1,
+  col = 'gray80')
+```
+
+To get a histograms with a __density scale__, you need to use the argument `probability = TRUE`:
+
+```{r}
+histogram2 = hist(
+  x,
+  breaks = seq(from = 0, to = 10, by = 2),
+  probability = TRUE,
+  las = 1, 
+  col = 'gray80')
+```
+
+Let's confirm that we have a density scale in which the area of the bars add up to 1.
+
+```{r}
+sum(histogram2$density * 2)
+```
+
+
+-----
+
+
+
+```{r eval = FALSE}
+hist(x, probability = TRUE, las = 1)
+
+
+hist(x, breaks = seq(0, 10, 2), las = 1, 
+     probability = TRUE, col = 'gray80')
+
+hist(x, breaks = seq(0, 10, 2), las = 1, 
+     probability = TRUE, col = 'gray80',
+     include.lowest = TRUE)
+
+x_hist = hist(x, plot = FALSE)
+plot(x_hist)
+
+y_hist = hist(x, breaks = seq(0, 10, 2), 
+              right = FALSE, plot = FALSE)
+plot(y_hist)
+
+z_hist = hist(x, breaks = seq(0, 10, 2), 
+              right = TRUE, plot = FALSE)
+
+
+hist(x, breaks = c(0, 2, 5, 8, 9, 10), las = 1, 
+     probability = TRUE, col = 'gray80', 
+     labels = 1)
+```
+
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
