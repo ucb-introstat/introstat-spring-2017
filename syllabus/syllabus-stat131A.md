@@ -18,7 +18,7 @@ Stat 131A: Introduction to Probability and Statistics for Life Scientists, Sprin
 | 102        | MW  3-4pm | B51 Hildebrand   | TBA |
 | 103        | MW  4-5pm |   9 Evans        | TBA |
 | 104        | MW  4-5pm |  70 Evans        | TBA |
-|
+
 
 ### Description
 
