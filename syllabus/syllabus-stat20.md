@@ -12,6 +12,24 @@ Stat 20: Introduction to Probability and Statistics, Spring 2017
 - __Final:__ Wed, May-10, 3:00-6:00pm
 - __GSIs:__ Office hours of the GSIs will be posted on the bCourses page. You can go to the office hours of __any__ GSI, not just your own.
 
+| Discussion | Date         | Room         | GSI |
+|------------|--------------|--------------|-----|
+| 101        | TuTh  9-10A  | 332 Evans    | TBA |
+| 102        | TuTh  9-10A  | 334 Evans    | TBA |
+| 103        | TuTh  10-11A | 332 Evans    | TBA |
+| 104        | TuTh  10-11A | 334 Evans    | TBA |
+| 105        | TuTh  11-12P | 332 Evans    | TBA |
+| 106        | TuTh  11-12P | 334 Evans    | TBA |
+| 107        | TuTh  12-1P  | 332 Evans    | TBA |
+| 108        | TuTh  1-2P   | 332 Evans    | TBA |
+| 109        | TuTh  2-3P   | 334 Evans    | TBA |
+| 110        | TuTh  2-3P   | 340 Evans    | TBA |
+| 111        | TuTh  3-4P   | 334 Evans    | TBA |
+| 112        | TuTh  3-4P   | 340 Evans    | TBA |
+| 113        | TuTh  4-5P   | 334 Evans    | TBA |
+| 114        | TuTh  5-6P   | 334 Evans    | TBA |
+| 115        | TuTh  5-6P   | 205 Dwinelle | TBA |
+| 116        | TuTh  5-6P   | 187 Dwinelle | TBA |
 
 
 ### Description
