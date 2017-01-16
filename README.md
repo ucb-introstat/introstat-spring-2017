@@ -3,7 +3,7 @@
 This repository holds the course materials for the Spring 2017 edition of:
 
 - Stat 20 __Introduction to Probability and Statistics__ at UC Berkeley.
-- Stat 131A __Introduction to Probability and Statistics for Life Sciences__ at UC Berkeley.
+- Stat 131A __Introduction to Probability and Statistics for Life Scientists__ at UC Berkeley.
 
 
 ## Contents
