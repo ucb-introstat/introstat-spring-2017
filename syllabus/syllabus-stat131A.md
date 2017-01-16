@@ -23,7 +23,7 @@ The emphasis of the course is critical thinking about quantitative evidence. Top
 
 ### Methods of Instruction
 
-Using a combination of lecture and student participation, each class session will focus on learning the fundamentals. The required textbook is the classic __Statistics__ 4th edition by Freedman, Pisani and Purves. I firmly believe that one cannot do statistical computations without the help of good statistical software. In this course, you will be asked to do various assignments and practical work using the statistical software __[R](https://www.r-project.org/)__.
+Using a combination of lecture and student participation, each class session will focus on learning the fundamentals. The required textbook is the classic __Statistics__ 4th edition by Freedman, Pisani and Purves. I firmly believe that one cannot do statistical computations without the help of good statistical software. In this course, you will be asked to do various assignments and practical work using the [statistical software R](https://www.r-project.org/).
 
 
 ### Homework Assignments
