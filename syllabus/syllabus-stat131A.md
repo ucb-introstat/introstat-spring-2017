@@ -37,6 +37,15 @@ Using a combination of lecture and student participation, each class session wil
 - Solutions to the review exercises will be posted on bCourses.
 
 
+### Discussion
+
+- Discussion is an important part of the class and is meant to supplement lecture.
+- Your GSI will review and expand on concepts introduced in lecture and encourage you to problem solve in groups. 
+- There will be regular short quizzes given in discussion to test your understanding.
+- Your quiz scores will NOT be part of your grade.
+- Students must attend the discussion group they are officially registered in.
+
+
 ### Exams
 
 - There will be two 50-minute in-class midterms, and one 3-hour final exam.
