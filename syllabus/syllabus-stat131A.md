@@ -6,7 +6,7 @@ Stat 131A: Introduction to Probability and Statistics for Life Sciences, Spring 
 - __Class Time:__ MWF 2-3pm in 50 Birge
 - __Session Dates:__ 01/18/17 - 05/05/17
 - __Code #:__ 23461
-- __Units:__ 4 (more info [http://classes.berkeley.edu/content/2017-spring-stat-131A-001-lec-001](here))
+- __Units:__ 4 (more info [here](http://classes.berkeley.edu/content/2017-spring-stat-131A-001-lec-001))
 - __Office Hours:__ TBD in 309 Evans Hall
 - __Text:__ Statistics, 4th edition (by Freedman, Pisani, and Purves)
 - __Final:__ Tue, May-09, 11:30am-2:30pm

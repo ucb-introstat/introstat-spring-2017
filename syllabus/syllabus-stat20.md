@@ -6,7 +6,7 @@ Stat 20: Introduction to Probability and Statistics, Spring 2017
 - __Class Time:__ MWF 12-1pm in 2050 VLSB
 - __Session Dates:__ 01/18/17 - 05/05/17
 - __Code #:__ 23407
-- __Units:__ 4 (more info [http://classes.berkeley.edu/content/2017-spring-stat-20-001-lec-001](here))
+- __Units:__ 4 (more info [here](http://classes.berkeley.edu/content/2017-spring-stat-20-001-lec-001))
 - __Office Hours:__ TBD in 309 Evans Hall
 - __Text:__ Statistics, 4th edition (by Freedman, Pisani, and Purves)
 - __Final:__ Wed, May-10, 3:00-6:00pm
