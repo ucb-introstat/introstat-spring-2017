@@ -2,6 +2,12 @@
 
 Tentative Calendar, Spring 2017
 
+- HW assignments are due on Thursdays (before midnight). 
+- Submit your homework via bCourses electronically as a word, text, pdf, or html file. 
+- Please do NOT submit any other file format (e.g. `.pages`, `.Rmd`, `.R`) since it won't be rendered on bCourses.
+
+
+
 <hr>
 
 <table>
@@ -20,12 +26,12 @@ Tentative Calendar, Spring 2017
     </tr>
     <tr>
       <td>2</td>
-      <td>Feb 2</td>
+      <td>Feb 02</td>
       <td>HW2 - Histograms</td>
     </tr>
     <tr>
       <td>3</td>
-      <td>Feb 9</td>
+      <td>Feb 09</td>
       <td>Ch-4: B5, D8, E4, Rev6,9<br>
         Ch-5: C1, D1, E3, Rev7,10</td>
     </tr>
@@ -43,13 +49,13 @@ Tentative Calendar, Spring 2017
     </tr>
     <tr>
       <td>6</td>
-      <td>Mar 2</td>
+      <td>Mar 02</td>
       <td>Ch-11: R4,7, <br>
         Ch-12: R,4,5,6,7</td>
     </tr>
     <tr>
       <td>7</td>
-      <td>Mar 9</td>
+      <td>Mar 09</td>
       <td>Ch-13: R2,4,7,8,9<br>
         Ch-14: R1,3,5,6,9</td>
     </tr>
@@ -68,7 +74,7 @@ Tentative Calendar, Spring 2017
     </tr>
     <tr>
       <td>10</td>
-      <td>Apr 6</td>
+      <td>Apr 06</td>
       <td>Ch-21: C5, R2,7<br>
         Ch-23: A2,5, C2, R4,10</td>
     </tr>
