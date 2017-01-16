@@ -10,7 +10,7 @@ Stat 20: Introduction to Probability and Statistics, Spring 2017
 - __Office Hours:__ TBD in 309 Evans Hall
 - __Text:__ Statistics, 4th edition (by Freedman, Pisani, and Purves)
 - __Final:__ Wed, May-10, 3:00-6:00pm
-- __GSIs:__ Office hours of the GSIs will be posted on the bCourses page. You can go to the office ours of __any__ GSI, not just your own.
+- __GSIs:__ Office hours of the GSIs will be posted on the bCourses page. You can go to the office hours of __any__ GSI, not just your own.
 
 
 
@@ -23,7 +23,7 @@ The emphasis of the course is critical thinking about quantitative evidence. Top
 
 ### Methods of Instruction
 
-Using a combination of lecture and student participation, each class session will focus on learning the fundamentals. The required textbook is the classic __Statistics__ 4th edition by Freedman, Pisani and Purves. I firmly believe that one cannot do statistical computations without the help of good statistical software. In this course, you will be asked to do various assignments and practical work using the statistical software R.
+Using a combination of lecture and student participation, each class session will focus on learning the fundamentals. The required textbook is the classic __Statistics__ 4th edition by Freedman, Pisani and Purves. I firmly believe that one cannot do statistical computations without the help of good statistical software. In this course, you will be asked to do various assignments and practical work using the statistical software __[R](https://www.r-project.org/)__.
 
 
 ### Homework Assignments
@@ -33,7 +33,7 @@ Using a combination of lecture and student participation, each class session wil
 - I will drop your lowest HW score.
 - Don't wait until the last hour to do an assignment. Plan ahead and pace yourself.
 - Don't wait until the last minute to submit your assignment.
-- No late assignments will be accepted, for any reason, including, but not limited to, theft or any extraordinary circumnstances (e.g. illnes, exhaustion, mourning, loss of internet connection, bCourses is down, broken computer).
+- __No late assignments__ will be accepted, for any reason, including, but not limited to, theft or any extraordinary circumnstances (e.g. illnes, exhaustion, mourning, loss of internet connection, bCourses is down, broken computer).
 - Solutions to the review exercises will be posted on bCourses.
 
 
@@ -62,7 +62,7 @@ No individual letter grades will be given for midterm, or final. You will get a 
 
 - You will need one that adds, subtracts, multiplies, divides, takes square roots, raises numbers to a power, and preferably also computes factorials. Statistical calculators are unnecessary.
 - However, no phone calculators or tablet calculators are allowed.
-- If you do not bring a scientific calculator to a midterm or the final, do your computations by hand (you won't be allowed to borrow someone else's calculator).
+- If you do not bring a calculator to a midterm or the final, do your computations by hand (you won't be allowed to borrow someone else's calculator).
 
 
 ### Email Policy
@@ -73,7 +73,7 @@ No individual letter grades will be given for midterm, or final. You will get a 
 - Do NOT expect me to reply right away (I may not reply on time).
 - If you have an emergency, talk to me later during class or office hours.
 - I strongly encourage you to ask questions about the syllabus, covered material, and assignments during class time or lab discussions. 
-- I'm old school and prefer to have conversations in person rather than via email, thus allowing us to get to know each other better and fostering a more collegial learning atmosphere.
+- I prefer to have conversations in person rather than via email, thus allowing us to get to know each other better and fostering a more collegial learning atmosphere.
 
 
 ### Academic Honesty
