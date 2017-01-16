@@ -1,6 +1,6 @@
 ## Course Syllabus Stat 131A
 
-Stat 131A: Introduction to Probability and Statistics for Life Sciences, Spring 2017
+Stat 131A: Introduction to Probability and Statistics for Life Scientists, Spring 2017
 
 - __Instructor:__ Gaston Sanchez, gaston.stat[at]gmail.com
 - __Class Time:__ MWF 2-3pm in 50 Birge
