@@ -7,7 +7,7 @@ Stat 131A: Introduction to Probability and Statistics for Life Scientists, Sprin
 - __Session Dates:__ 01/18/17 - 05/05/17
 - __Code #:__ 23461
 - __Units:__ 4 (more info [here](http://classes.berkeley.edu/content/2017-spring-stat-131A-001-lec-001))
-- __Office Hours:__ TBD in 309 Evans Hall
+- __Office Hours:__ TuTh 11:30am-12:30pm in 309 Evans Hall
 - __Text:__ Statistics, 4th edition (by Freedman, Pisani, and Purves)
 - __Final:__ Tue, May-09, 11:30am-2:30pm
 - __GSIs:__ Office hours of the GSIs will be posted on the bCourses page. You can go to the office hours of __any__ GSI, not just your own.
