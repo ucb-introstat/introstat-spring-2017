@@ -12,12 +12,12 @@ Stat 131A: Introduction to Probability and Statistics for Life Scientists, Sprin
 - __Final:__ Tue, May-09, 11:30am-2:30pm
 - __GSIs:__ Office hours of the GSIs will be posted on the bCourses page. You can go to the office hours of __any__ GSI, not just your own.
 
-| Discussion | Date      | Room             | GSI |
-|------------|-----------|------------------|-----|
-| 101        | MW  3-4pm | 250 Sutardja Dai | TBA |
-| 102        | MW  3-4pm | B51 Hildebrand   | TBA |
-| 103        | MW  4-5pm |   9 Evans        | TBA |
-| 104        | MW  4-5pm |  70 Evans        | TBA |
+| Discussion | Date      | Room             | GSI          |
+|------------|-----------|------------------|--------------|
+| 101        | MW  3-4pm | 250 Sutardja Dai | Shuhui Huang |
+| 102        | MW  3-4pm | B51 Hildebrand   | Andy Mao     |
+| 103        | MW  4-5pm |   9 Evans        | Shuhui Huang |
+| 104        | MW  4-5pm |  70 Evans        | Andy Mao     |
 
 
 ### Description
