@@ -9,12 +9,34 @@ This repository holds the course materials for the Spring 2017 edition of:
 ## Contents
 
 - Syllabus
+- Lectures
 - HW Assignments
 - Labs
 - Scripts
 - Apps
 - Data
 
+
+## R and RStudio
+
+We will use the statistical software R and the [IDE](https://en.wikipedia.org/wiki/Integrated_development_environment) RStudio as a computational tool to
+practice and apply the key concepts of the course.
+
+Both R and RStudio are free, and are available for Mac OS X, Windows, and Linux. 	
+
+To install R (Binary version):
+
+- Mac: [https://cran.cnr.berkeley.edu/bin/macosx/](https://cran.cnr.berkeley.edu/bin/macosx/)
+- Windows: [https://cran.cnr.berkeley.edu/bin/windows/](https://cran.cnr.berkeley.edu/bin/windows/)
+
+To install RStudio (free desktop version): 
+
+- RStudio Desktop version [https://www.rstudio.com/products/rstudio/download/](https://www.rstudio.com/products/rstudio/download/)
+
+
+-----
+
+### License
 
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
 
