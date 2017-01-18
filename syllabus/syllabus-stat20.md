@@ -52,7 +52,10 @@ Using a combination of lecture and student participation, each class session wil
 - Don't wait until the last hour to do an assignment. Plan ahead and pace yourself.
 - Don't wait until the last minute to submit your assignment.
 - __No late assignments__ will be accepted, for any reason, including, but not limited to, theft or any extraordinary circumnstances (e.g. illnes, exhaustion, mourning, loss of internet connection, bCourses is down, broken computer).
+- Note that answers to non-review questions are in the back of the book so you can check that your answer is correct.
 - Solutions to the review exercises will be posted on bCourses.
+- If you collaborate with other students when working on a HW assignment, please include the names of those students in your submission.
+- You must write your own answers (using your own words). Copy and plagiarism will not be tolerated (see Academic Honesty policy).
 
 
 ### Discussion
@@ -92,6 +95,11 @@ No individual letter grades will be given for midterm, or final. You will get a 
 - If you do not bring a calculator to a midterm or the final, do your computations by hand (you won't be allowed to borrow someone else's calculator).
 
 
+### Academic Honesty
+
+I (Gaston Sanchez) expect you to do your own work and to uphold the standards of intellectual integrity. Collaborating on homework is fine and I encourage you to work together—--but copying is not, nor is having somebody else submit assignments for you. Cheating will not be tolerated. Anyone found cheating will receive an F and will be reported to the [Center for the Student Conduct](http://sa.berkeley.edu/conduct). If you are having trouble with an assignment or studying for an exam, or if you are uncertain about permissible and impermissible conduct or collaboration, please come see me with your questions. 
+
+
 ### Email Policy
 
 - You should try to use email as a tool to set up a one-on-one meeting with me if office hours conflict with your schedule.
@@ -101,11 +109,6 @@ No individual letter grades will be given for midterm, or final. You will get a 
 - If you have an emergency, talk to me later during class or office hours.
 - I strongly encourage you to ask questions about the syllabus, covered material, and assignments during class time or lab discussions. 
 - I prefer to have conversations in person rather than via email, thus allowing us to get to know each other better and fostering a more collegial learning atmosphere.
-
-
-### Academic Honesty
-
-I (Gaston Sanchez) expect you to do your own work and to uphold the standards of intellectual integrity. Collaborating on homework is fine and I encourage you to work together—--but copying is not, nor is having somebody else submit assignments for you. Cheating will not be tolerated. Anyone found cheating will receive an F and will be reported to the [Center for the Student Conduct](http://sa.berkeley.edu/conduct). If you are having trouble with an assignment or studying for an exam, or if you are uncertain about permissible and impermissible conduct or collaboration, please come see me with your questions. 
 
 
 ### Accommodation Policy
