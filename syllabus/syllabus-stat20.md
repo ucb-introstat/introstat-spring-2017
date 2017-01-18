@@ -41,7 +41,9 @@ The emphasis of the course is critical thinking about quantitative evidence. Top
 
 ### Methods of Instruction
 
-Using a combination of lecture and student participation, each class session will focus on learning the fundamentals. The required textbook is the classic __Statistics__ 4th edition by Freedman, Pisani and Purves. I firmly believe that one cannot do statistical computations without the help of good statistical software. In this course, you will be asked to do various assignments and practical work using the [statistical software R](https://www.r-project.org/).
+Using a combination of lecture and student participation, each class session will focus on learning the fundamentals. The required textbook is the classic __Statistics__ 4th edition by Freedman, Pisani and Purves. 
+
+I firmly believe that one cannot do statistical computations without the help of good statistical software. In this course, you will be asked to do various assignments and practical work using the [statistical software R](https://www.r-project.org/). The main idea is to use R as a supporting tool to help you apply the key concepts of the textbook.
 
 
 ### Homework Assignments
@@ -55,15 +57,15 @@ Using a combination of lecture and student participation, each class session wil
 - Note that answers to non-review questions are in the back of the book so you can check that your answer is correct.
 - Solutions to the review exercises will be posted on bCourses.
 - If you collaborate with other students when working on a HW assignment, please include the names of those students in your submission.
-- You must write your own answers (using your own words). Copy and plagiarism will not be tolerated (see Academic Honesty policy).
+- You must write your own answers (using your own words). Copy and plagiarism will not be tolerated (see _Academic Honesty_ policy).
 
 
 ### Discussion
 
 - Discussion is an important part of the class and is meant to supplement lecture.
 - Your GSI will review and expand on concepts introduced in lecture and encourage you to problem solve in groups. 
-- There will be regular short quizzes given in discussion to test your understanding.
-- Your quiz scores will NOT be part of your grade.
+- There will be about 4/5 short quizzes given in discussion to test your understanding.
+- Your quiz scores __will NOT__ be part of your grade.
 - Students must attend the discussion group they are officially registered in.
 
 
@@ -97,7 +99,7 @@ No individual letter grades will be given for midterm, or final. You will get a 
 
 ### Academic Honesty
 
-I (Gaston Sanchez) expect you to do your own work and to uphold the standards of intellectual integrity. Collaborating on homework is fine and I encourage you to work together—--but copying is not, nor is having somebody else submit assignments for you. Cheating will not be tolerated. Anyone found cheating will receive an F and will be reported to the [Center for the Student Conduct](http://sa.berkeley.edu/conduct). If you are having trouble with an assignment or studying for an exam, or if you are uncertain about permissible and impermissible conduct or collaboration, please come see me with your questions. 
+I (Gaston Sanchez) expect you to do your own work and to uphold the standards of intellectual integrity. Collaborating on homework is fine and I encourage you to work together---but copying is not, nor is having somebody else submit assignments for you. Cheating will not be tolerated. Anyone found cheating will receive an F and will be reported to the [Center for the Student Conduct](http://sa.berkeley.edu/conduct). If you are having trouble with an assignment or studying for an exam, or if you are uncertain about permissible and impermissible conduct or collaboration, please come see me with your questions. 
 
 
 ### Email Policy
@@ -144,7 +146,7 @@ Call (510) 643-7985, email ask_ophd@berkeley.edu, or go to
 
 ### Incomplete Policy
 
-Under emergency/special circumstances, students may petition me to receive an Incomplete grade. By University policy, for a student to get an Incomplete requires (i) that the student was performing passing-level work until the time that (ii) something happened that---through no fault of the student—--prevented the student from completing the coursework. If you take the final, you completed the course, even if you took it while ill, exhausted, mourning, etc. The time to talk to me about incomplete grades is BEFORE you take the final, when the situation that prevents you from finishing presents itself. Please clearly state your reasoning in your comments to me.
+Under emergency/special circumstances, students may petition me to receive an Incomplete grade. By University policy, for a student to get an Incomplete requires (i) that the student was performing passing-level work until the time that (ii) something happened that---through no fault of the student---prevented the student from completing the coursework. If you take the final, you completed the course, even if you took it while ill, exhausted, mourning, etc. The time to talk to me about incomplete grades is BEFORE you take the final, when the situation that prevents you from finishing presents itself. Please clearly state your reasoning in your comments to me.
 
 It is your responsibility to develop good time management skills, good studying habits, know your limits, and learn to ask for professional help.
 Life happens. Social, family, cultural, scholar, and individual circumstances can affect your performance (both positive and negatively). If you find yourself in a situation that raises concerns about passing the course, please come see me as soon as possible. Above all, please do not wait till the end of the semester to share your concerns about passing the course because it will be too late by then.
