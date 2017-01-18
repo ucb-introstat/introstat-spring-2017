@@ -15,12 +15,12 @@ Stat 20: Introduction to Probability and Statistics, Spring 2017
 | Discussion | Date         | Room         | GSI             |
 |------------|--------------|--------------|-----------------|
 | 101        | TuTh  9-10A  | 332 Evans    | Yoni Ackerman   |
-| 102        | TuTh  9-10A  | 334 Evans    | Mingjia Chen    |
+| 102        | TuTh  9-10A  | 334 Evans    | Yizhou Zhao     |
 | 103        | TuTh  10-11A | 332 Evans    | Yoni Ackerman   |
-| 104        | TuTh  10-11A | 334 Evans    | Mingjia Chen    |
-| 105        | TuTh  11-12P | 332 Evans    | Yizhou Zhao     |
+| 104        | TuTh  10-11A | 334 Evans    | Yizhou Zhao     |
+| 105        | TuTh  11-12P | 332 Evans    | Mingjia Chen    |
 | 106        | TuTh  11-12P | 334 Evans    | Jill Berkin     |
-| 107        | TuTh  12-1P  | 332 Evans    | Yizhou Zhao     |
+| 107        | TuTh  12-1P  | 332 Evans    | Mingjia Chen    |
 | 108        | TuTh  1-2P   | 332 Evans    | Yanli Fan       |
 | 109        | TuTh  2-3P   | 334 Evans    | Yanli Fan       |
 | 110        | TuTh  2-3P   | 340 Evans    | Rohit Bahirwani |

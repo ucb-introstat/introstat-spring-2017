@@ -17,7 +17,7 @@ Stat 131A: Introduction to Probability and Statistics for Life Scientists, Sprin
 | 101        | MW  3-4pm | 250 Sutardja Dai | Shuhui Huang |
 | 102        | MW  3-4pm | B51 Hildebrand   | Andy Mao     |
 | 103        | MW  4-5pm |   9 Evans        | Shuhui Huang |
-| 104        | MW  4-5pm |  70 Evans        | Andy Mao     |
+| 104        | MW  5-6pm |  70 Evans        | Andy Mao     |
 
 
 ### Description
