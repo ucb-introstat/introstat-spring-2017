@@ -5,7 +5,7 @@ Tentative Calendar, Spring 2017
 
 | Week | Date   | Monday                  | Wednesday              | Friday                |
 |------|--------|-------------------------|------------------------|-----------------------|
-|  0   | Jan-18	|                         | About	               | Intro to R & RStudio  |
+|  0   | Jan-18	|                         | Data and variables	   | Intro to R & RStudio  |
 |  1   | Jan-23	| Ch 3: Histograms	      | Ch 4: Average          | Ch 4: Spread          |
 |  2   | Jan-30	| Ch 5: Normal curve      | Ch 8: Correlation      | Ch 9: Correlation     |
 |  3   | Feb-06	| Ch 10: Regression	      | Ch 10: Regression      | Ch 12: regression line|
@@ -25,3 +25,9 @@ Tentative Calendar, Spring 2017
 
 - May-09: __Final Stat 131A__
 - May-10: __Final Stat 20__
+
+-----
+
+## Slides
+
+- Jan 18: [Data and Variables](https://docs.google.com/presentation/d/1k0Ti3489qKExV-X9VzgOq0rCRk0EcjsEB800TDyvfG0/edit?usp=sharing)
