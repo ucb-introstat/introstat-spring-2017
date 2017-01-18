@@ -30,4 +30,5 @@ Tentative Calendar, Spring 2017
 
 ## Slides
 
-- Jan 18: [Data and Variables](https://docs.google.com/presentation/d/1k0Ti3489qKExV-X9VzgOq0rCRk0EcjsEB800TDyvfG0/edit?usp=sharing)
+- Jan 18: <a href="https://docs.google.com/presentation/d/1k0Ti3489qKExV-X9VzgOq0rCRk0EcjsEB800TDyvfG0/edit?usp=sharing" target="_blank">Data and Variables</a>
+- Jan 20: <a href="https://docs.google.com/presentation/d/1jtPoAMnT2-56REz-pFZQWSSSzFVHXOI069vrQCA0r6k/edit?usp=sharing" target="_blank">Intro to R and RStudio</a>
