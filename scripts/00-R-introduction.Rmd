@@ -26,7 +26,8 @@ urlcolor: blue
 	- R for Mac: [https://cran.r-project.org/bin/macosx/](https://cran.r-project.org/bin/macosx/)
 	- R for windows: [https://cran.r-project.org/bin/windows/base/](https://cran.r-project.org/bin/windows/base/)
 - Install __RStudio__
-	- RStudio download: [https://www.rstudio.com/products/rstudio/download/](https://www.rstudio.com/products/rstudio/download/)
+	- RStudio download (desktop version): [https://www.rstudio.com/products/rstudio/download/](https://www.rstudio.com/products/rstudio/download/)
+
 
 ### Difference between R-GUI and RStudio
 
@@ -42,7 +43,7 @@ files.
 
 ## R as a scientific calculator
 
-Open RStudio and locate the _console_ (or prompt).
+Open RStudio and locate the _console_ (or prompt) pane.
 Let's start typing basic things in the console, using R as a scientific calculator:
 
 ```r
@@ -67,6 +68,7 @@ Let's start typing basic things in the console, using R as a scientific calculat
 3 ^ 3
 ```
 
+
 ### Functions
 
 R has many functions. To use a function, type its name followed by parenthesis.
@@ -84,6 +86,7 @@ sqrt(9)
 # natural logarithm
 log(2)
 ```
+
 
 ### Comments in R
 
@@ -149,6 +152,7 @@ x + X
 X + X
 ```
 
+
 ### Some Examples
 
 Here are some examples that illustrate how to use R to define
@@ -158,7 +162,7 @@ variables and perform basic calculations:
 # convert Fahrenheit degrees to Celsius degrees
 fahrenheit = 50
 celsius = (fahrenheit - 32) * (5/9)
-print(celsius)
+celsius
 
 
 # compute the area of a rectangle
@@ -201,7 +205,7 @@ can be a hassle.
 ### Using an R script file
 
 Most of the time you won't be working directly on the console.
-Instead, you will be typing your commands in some source file.
+Instead, you will be typing your commands in some _source_ file.
 The basic type of source files are known as _R script files_.
 Open a new script file in the _source_ pane, and rewrite the
 previous commands.
@@ -242,7 +246,7 @@ by the name of the function:
 ?mean
 ```
 
-- How to read the manual documentation
+- How to read the manual documentation:
 	- Title
 	- Description
 	- Usage of function
@@ -253,8 +257,8 @@ by the name of the function:
 
 `help()` only works if you know the name of the function your are looking for.
 Sometimes, however, you don't know the name but you may know some keywords.
-To look for related functions associated to a keyword, use double
-`help.search()` or simply `??`
+To look for related functions associated to a keyword, use `help.search()` or
+simply `??`
 
 ```r
 # search for 'absolute'
@@ -292,7 +296,8 @@ You can also install a bunch of packages at once:
 install.packages(c("readr", "ggplot2"))
 ```
 
-Once you installed a package, you can start using its functions
+The installation of a package needs to be done only once. 
+After a package has been installed, you can start using its functions
 by _loading_ the package with the function `library()`
 
 ```r
@@ -315,22 +320,24 @@ Find out what does the tab __Files__ is good for?
 ## Introduction to Markdown
 
 Besides using R script files to write source code, you will be using other
-type of source files known as _R markdown_ files. These files use a special
-syntax called __markdown__.
+type of source files known as _R markdown_ files, simply called `Rmd` files. 
+These files use a special syntax called
+[markdown](https://en.wikipedia.org/wiki/Markdown).
 
 
 ### Get to know the `Rmd` files
 
 In the menu bar of RStudio, click on __File__, then __New File__,
-and choose __R Markdown__. Select the default option (Document),
+and choose __R Markdown__. Select the default option "Document" (HTML output),
 and click __Ok__.
 
 __Rmd__ files are a special type of file, referred to as a _dynamic document_,
-that allows to combine narrative (text) with R code. Because you will
-be turning in most homework assignments as `Rmd` files, it is important
-that you quickly become familiar with this resource.
+that allows you to combine narrative (text) with R code. It is extremeley 
+important that you quickly become familiar with this resource. One reason is
+that you can use Rmd files to write your homework assignments and convert them 
+to HTML, Word, or PDF files.
 
-Locate the button __Knit HTML__ (the one with a knitting icon) and click on it
+Locate the button __Knit__ (the one with a knitting icon) and click on it
 so you can see how `Rmd` files are renderer and displayed as HTML documents.
 
 
@@ -343,14 +350,12 @@ markup language, and it is relatively easy to learn.
 
 ### Your turn
 
-Work through the markdown tutorial:
-[www.markdown-tutorial.com](http://www.markdown-tutorial.com)
+If you are new to Markdown, please take a look at the following tutorials:
 
-Your turn: After lab discussion, find some time to go through this
-additional markdown tutorial
-[www.markdowntutorial.com/](http://www.markdowntutorial.com/)
+- [www.markdown-tutorial.com](http://www.markdown-tutorial.com)
+- [www.markdowntutorial.com/](http://www.markdowntutorial.com/)
 
-RStudio has a very comprehensive R Markdown tutorial:
+RStudio has also a comprehensive R Markdown tutorial:
 [Rstudio markdown tutorial](http://rmarkdown.rstudio.com/)
 
 -----
