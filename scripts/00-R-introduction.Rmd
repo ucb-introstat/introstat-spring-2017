@@ -317,7 +317,7 @@ Find out what does the tab __Files__ is good for?
 
 -----
 
-## Introduction to Markdown
+## Introduction to Rmd files
 
 Besides using R script files to write source code, you will be using other
 type of source files known as _R markdown_ files, simply called `Rmd` files. 
@@ -355,7 +355,46 @@ If you are new to Markdown, please take a look at the following tutorials:
 - [www.markdown-tutorial.com](http://www.markdown-tutorial.com)
 - [www.markdowntutorial.com/](http://www.markdowntutorial.com/)
 
-RStudio has also a comprehensive R Markdown tutorial:
+-----
+
+### Rmd basics
+
+- YAML header:
+	- title
+	- author
+	- date
+	- output: `html_document`, `word_document`, `pdf_document`
+- Code Chunks:
+	- syntax
+	- chunk options
+	- graphics
+- Math notation:
+	- inline `$z^2 = x^2 + y^2$`
+	- paragraph `$$z^2 = x^2 + y^2$$`
+
+Example of inline equation: $z^2 = x^2 + y^2$
+
+Example of equation in its own paragraph:
+$$
+z^2 = x^2 + y^2
+$$
+
+RStudio has a basic tutorial about R Markdown files:
 [Rstudio markdown tutorial](http://rmarkdown.rstudio.com/)
 
------
+Rmd files are able to render math symbols and expressions written using LaTeX
+notation. There are dozens of online resources to learn about math notation and 
+equations in LaTeX. Here's some documentation from [www.sharelatex.com/learn/](https://www.sharelatex.com/learn/)
+
+- [Mathematical expressions](https://www.sharelatex.com/learn/Mathematical_expressions)
+- [Subscripts and superscripts](https://www.sharelatex.com/learn/Subscripts_and_superscripts)
+- [Brackets and Parentheses](https://www.sharelatex.com/learn/Brackets_and_Parentheses)
+- [Fractions and Binomials](https://www.sharelatex.com/learn/Fractions_and_Binomials)
+- [Integrals, sums and limits](https://www.sharelatex.com/learn/Integrals,_sums_and_limits)
+- [List of Greek letters and math symbols](https://www.sharelatex.com/learn/List_of_Greek_letters_and_math_symbols)
+- [Operators](https://www.sharelatex.com/learn/Operators)
+
+
+
+
+	
