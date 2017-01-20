@@ -338,14 +338,14 @@ that you can use Rmd files to write your homework assignments and convert them
 to HTML, Word, or PDF files.
 
 Locate the button __Knit__ (the one with a knitting icon) and click on it
-so you can see how `Rmd` files are renderer and displayed as HTML documents.
+so you can see how `Rmd` files are rendered and displayed as HTML documents.
 
 
 ### Yet Another Syntax to Learn
 
 R markdown (`Rmd`) files use [markdown](https://daringfireball.net/projects/markdown/)
-as the main syntax to write content. It is a very lightweight type of
-markup language, and it is relatively easy to learn.
+as the main syntax to write content that is not R code. Markdown is a very
+lightweight type of markup language, and it is relatively easy to learn.
 
 
 ### Your turn
@@ -353,7 +353,7 @@ markup language, and it is relatively easy to learn.
 If you are new to Markdown, please take a look at the following tutorials:
 
 - [www.markdown-tutorial.com](http://www.markdown-tutorial.com)
-- [www.markdowntutorial.com/](http://www.markdowntutorial.com/)
+- [www.markdowntutorial.com](http://www.markdowntutorial.com)
 
 -----
 
@@ -384,7 +384,7 @@ RStudio has a basic tutorial about R Markdown files:
 
 Rmd files are able to render math symbols and expressions written using LaTeX
 notation. There are dozens of online resources to learn about math notation and 
-equations in LaTeX. Here's some documentation from [www.sharelatex.com/learn/](https://www.sharelatex.com/learn/)
+equations in LaTeX. Here's some documentation from [www.sharelatex.com/learn](https://www.sharelatex.com/learn/)
 
 - [Mathematical expressions](https://www.sharelatex.com/learn/Mathematical_expressions)
 - [Subscripts and superscripts](https://www.sharelatex.com/learn/Subscripts_and_superscripts)
@@ -393,8 +393,3 @@ equations in LaTeX. Here's some documentation from [www.sharelatex.com/learn/](h
 - [Integrals, sums and limits](https://www.sharelatex.com/learn/Integrals,_sums_and_limits)
 - [List of Greek letters and math symbols](https://www.sharelatex.com/learn/List_of_Greek_letters_and_math_symbols)
 - [Operators](https://www.sharelatex.com/learn/Operators)
-
-
-
-
-	
