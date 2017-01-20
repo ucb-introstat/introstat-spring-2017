@@ -5,10 +5,10 @@ Tentative Calendar, Spring 2017
 
 | Week | Date   | Monday                  | Wednesday              | Friday                |
 |------|--------|-------------------------|------------------------|-----------------------|
-|  0   | Jan-18	|                         | Data and variables	   | Intro to R & RStudio  |
+|  0   | Jan-16	|                         | Data and variables	   | Intro to R & RStudio  |
 |  1   | Jan-23	| Ch 3: Histograms	      | Ch 4: Average          | Ch 4: Spread          |
 |  2   | Jan-30	| Ch 5: Normal curve      | Ch 8: Correlation      | Ch 9: Correlation     |
-|  3   | Feb-06	| Ch 10: Regression	      | Ch 10: Regression      | Ch 12: regression line|
+|  3   | Feb-06	| Ch 10: Regression	      | Ch 10: Regression      | Ch 12: Regression line|
 |  4   | Feb-13	| Regression in R         | Ch 11: RMS error	   | Ch 11: RMS error	   |
 |  5   | Feb-20	| _Holiday_               | Review                 | __MIDTERM 1__         |
 |  6   | Feb-27	| Ch 13: Probability	  | Ch 13: Probability     | Ch 14: More prob.     |
@@ -28,7 +28,11 @@ Tentative Calendar, Spring 2017
 
 -----
 
-## Slides
+## Slides and Scripts
 
-- Jan 18: <a href="https://docs.google.com/presentation/d/1k0Ti3489qKExV-X9VzgOq0rCRk0EcjsEB800TDyvfG0/edit?usp=sharing" target="_blank">Data and Variables</a>
-- Jan 20: <a href="https://docs.google.com/presentation/d/1jtPoAMnT2-56REz-pFZQWSSSzFVHXOI069vrQCA0r6k/edit?usp=sharing" target="_blank">Intro to R and RStudio</a>
+- Jan 18: 
+	+ [Data and Variables](https://docs.google.com/presentation/d/1k0Ti3489qKExV-X9VzgOq0rCRk0EcjsEB800TDyvfG0/edit?usp=sharing)
+- Jan 20: 
+	+ [Intro to R and RStudio](https://docs.google.com/presentation/d/1jtPoAMnT2-56REz-pFZQWSSSzFVHXOI069vrQCA0r6k/edit?usp=sharing) slides
+	+ [Getting started with R and RStudio](../scripts/00-R-introduction.pdf)
+	+ Read script about [data and variables](../scripts/01-data-variables.pdf)
