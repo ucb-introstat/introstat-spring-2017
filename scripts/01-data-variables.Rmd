@@ -292,3 +292,34 @@ dat$Teams[dat$Wins > 40]
 # name of teams with losses between 10 and 29
 dat$Teams[dat$Losses >= 10 & dat$Losses <= 29]
 ```
+
+
+## Your Turn
+
+Refer to the table of Western Conference Standings shown at the beginning of
+this document. Your mission consists of creating a data frame `standings`.
+In order to create such data frame, you will have to first create the following
+eight vectors:
+
+- `teams`
+- `wins`
+- `losses`
+- `win_loss_perc`
+- `games_behind`
+- `points_scored`
+- `points_against`
+- `rating`
+
+You can create the vector `games_behind` by taking the won games of Golden
+State Warriors and subtracting the wins of the rest of the teams, that is:
+
+```r
+wins[1] - wins
+```
+
+Once you have the previous listed vectors, use the function `data.frame()`
+to build `standings`.
+
+Select the _Points Scored_ from the table `standings` and sort it both in 
+increasing as well as decreasing order.
+
