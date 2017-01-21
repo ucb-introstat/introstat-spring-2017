@@ -32,9 +32,9 @@ Tentative Calendar, Spring 2017
 
 - Jan 18-20: 
 	+ [Data and Variables](https://docs.google.com/presentation/d/1k0Ti3489qKExV-X9VzgOq0rCRk0EcjsEB800TDyvfG0/edit?usp=sharing)
-	+ In-class: [Getting started with R and RStudio](../scripts/00-R-introduction.pdf)
+	+ In-class: [Getting started with R and RStudio](../scripts/01-R-introduction.pdf)
 	+ [Intro to R and RStudio](https://docs.google.com/presentation/d/1jtPoAMnT2-56REz-pFZQWSSSzFVHXOI069vrQCA0r6k/edit?usp=sharing) auxiliary slides
-	+ Practice: script about [data and variables](../scripts/01-data-variables.pdf)
+	+ Practice: script about [data and variables](../scripts/02-data-variables.pdf)
 - Jan 23-27:
 	+ In-class: [Histograms](https://docs.google.com/presentation/d/1D_QNv8HPBRQGqy3ofiJDuLgOpB-awMwwpMchX9n0My4/edit?usp=sharing) slides
 	+ Practice: script about [Histograms in R](../scripts/03-histograms.pdf)
