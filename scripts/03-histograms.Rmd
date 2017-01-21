@@ -395,7 +395,7 @@ lines(height_density, lwd = 3, col = "tomato")
 
 The density curve is added via the `lines()` function. Note that we are
 invoking `hist()` using the argument `probability = TRUE` in order to obtain
-a ensity scale in the y-axis.
+a density scale in the y-axis.
 
 
 
