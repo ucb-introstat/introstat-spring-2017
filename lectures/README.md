@@ -37,6 +37,6 @@ Tentative Calendar, Spring 2017
 	+ Practice: script about [data and variables](../scripts/01-data-variables.pdf)
 - Jan 23-27:
 	+ In-class: [Histograms](https://docs.google.com/presentation/d/1D_QNv8HPBRQGqy3ofiJDuLgOpB-awMwwpMchX9n0My4/edit?usp=sharing) slides
-	+ Practice: script about [Histograms in R](../scripts/02-R-introduction.pdf)
+	+ Practice: script about [Histograms in R](../scripts/03-histograms.pdf)
 	+ In-class: Measures of Center (Average and Median)
 	+ In-class: Measures of Spread (RMS, Standard Deviation)
