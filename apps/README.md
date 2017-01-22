@@ -5,7 +5,14 @@ This is a collection of Shiny apps to be used mainly during lecture to illustrat
 
 ## Running the apps
 
-The easiest way to run an app is with the `runGitHub()` from the `"shiny"` package. For instance, to run the app contained in the [ch03-histograms](/ch03-histograms) folder, run the following code in R:
+The easiest way to run an app is with the `runGitHub()` function from the `"shiny"` package. Please make sure you have installed the package `"shiny"`. In case of doubt, run:
+
+```R
+install.packages("shiny")
+```
+
+
+For instance, to run the app contained in the [ch03-histograms](/ch03-histograms) folder, run the following code in R:
 
 ```R
 library(shiny)
