@@ -60,7 +60,8 @@ server <- function(input, output) {
 
       histogram <- hist(x, breaks = bins, 
            probability = input$density,
-           col = 'gray80', border = 'white', las = 1, axes = FALSE,
+           col = 'gray80', border = 'white', las = 1, 
+           axes = FALSE, xlab = "",
            main = paste("Histogram of", input$variable))
       axis(side = 2, las = 1)
       axis(side = 1, at = bins, labels = round(bins, 2))
