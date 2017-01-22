@@ -39,7 +39,7 @@ ui <- fluidPage(
                      max = 50,
                      value = 10),
          
-         checkboxInput('density', label = strong('Density scale'))
+         checkboxInput('density', label = strong('Use density scale'))
       ),
       
       # Show a plot of the generated distribution
