@@ -4,7 +4,7 @@
 - Further instructions will be posted on bCourses (see "Asignments" section).
 - Submit your homework via bCourses electronically as a word, text, pdf, or html file. 
 - Please do NOT submit any other file format (e.g. `.pages`, `.Rmd`, `.R`) since it won't be rendered on bCourses.
-- Please the HW policy described in the syllabus.
+- Please become familiar with the HW policy described in the syllabus.
 
 
 Tentative Calendar, Spring 2017
