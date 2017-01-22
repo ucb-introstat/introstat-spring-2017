@@ -17,7 +17,7 @@ Reference: "Statistics" by David Freedman, Robert Pisani and Roger Purves (2007)
 
 ## Data
 
-The data set is in the `nba_players.csv` file (see `data/` folder) which contains 101 rows and 8 columns, although the app des not uses variables: `Name` and `Brand`
+The data set is in the `nba_players.csv` file (see `data/` folder) which contains 528 rows and 39 columns, although this app only uses quantitative variables.
 
 
 ## How to run it?
