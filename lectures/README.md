@@ -38,5 +38,5 @@ Tentative Calendar, Spring 2017
 - Jan 23-27:
 	+ In-class: [Histograms](https://docs.google.com/presentation/d/1D_QNv8HPBRQGqy3ofiJDuLgOpB-awMwwpMchX9n0My4/edit?usp=sharing) slides
 	+ Practice: script about [Histograms in R](../scripts/03-histograms.pdf)
-	+ In-class: Measures of Center (Average and Median)
-	+ In-class: Measures of Spread (RMS, Standard Deviation)
+	+ In-class: [Measures of Center (Average and Median)](https://docs.google.com/presentation/d/15jjBpSkQmYs99S8A2yvGGR4lwusUcJgBXZYU88158pE/edit?usp=sharing)
+	+ In-class: [Measures of Spread (RMS, Standard Deviation)](https://docs.google.com/presentation/d/1olNOkShLZTBwEywn1AsuX92PvimntXoKMn7eRDh5MRE/edit?usp=sharing)
