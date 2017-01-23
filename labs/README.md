@@ -16,8 +16,8 @@ Tentative Calendar, Spring 2017
     <tr>
       <td>1</td>
       <td>
-        Jan 24<br>
-        Jan 26</td>
+        Jan 23-24<br>
+        Jan 25-26</td>
       <td>
         Ch-3: A4,5,6, B2, C4<br>
         Ch-4: A4,5,6,9, B3,4
@@ -26,8 +26,8 @@ Tentative Calendar, Spring 2017
     <tr>
       <td>2</td>
       <td>
-        Jan 31<br>
-        Feb 02</td>
+        Jan 03-31<br>
+        Feb 01-02</td>
       <td>
         Ch-4: C4,5, D1,2,6, E1,5,6,7<br>
         Ch-5: A1,2, B1,2,5, F1, R11
@@ -36,8 +36,8 @@ Tentative Calendar, Spring 2017
     <tr>
       <td>3</td>
       <td>
-        Feb 07<br>
-        Feb 09</td>
+        Feb 06-07<br>
+        Feb 08-09</td>
       <td>
         Ch-8: A5,6, B4,7, D2,3<br>
         Ch-9: A2-5,9, B1, C4, D1, E4
@@ -46,8 +46,8 @@ Tentative Calendar, Spring 2017
     <tr>
       <td>4</td>
       <td>
-        Feb 14<br>
-        Feb 16</td>
+        Feb 13-14<br>
+        Feb 15-16</td>
       <td>
         Ch-10: A1, B1,4, C1,5, D1, E1,2<br>
         Ch-11: A4,6,8
@@ -57,7 +57,7 @@ Tentative Calendar, Spring 2017
       <td>5</td>
       <td>
         Feb 21<br>
-        Feb 23<br>
+        Feb 22-23<br>
         Feb 24</td>
       <td>
         Ch-11: B1,2,3, D4,5,6,7, E2,3<br>
