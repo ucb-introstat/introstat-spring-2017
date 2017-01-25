@@ -40,3 +40,8 @@ Tentative Calendar, Spring 2017
 	+ Practice: script about [Histograms in R](../scripts/03-histograms.pdf)
 	+ In-class: [Measures of Center (Average and Median)](https://docs.google.com/presentation/d/15jjBpSkQmYs99S8A2yvGGR4lwusUcJgBXZYU88158pE/edit?usp=sharing)
 	+ In-class: [Measures of Spread (RMS, Standard Deviation)](https://docs.google.com/presentation/d/1olNOkShLZTBwEywn1AsuX92PvimntXoKMn7eRDh5MRE/edit?usp=sharing)
+- JanFeb 30-03:
+	+ In-class: [Normal Curve](https://docs.google.com/presentation/d/1_6ZEhuTCDvxesw6H99nJxnJz7shMIU9Hzq4GzWzw0dE/edit?usp=sharing) slides
+	+ In-class: [Scatter Diagrams and Correlation](https://docs.google.com/presentation/d/1qLtoiX8CrpHL70lZ8LBQN0F-xHuwEnhpVNZalaBnSM8/edit?usp=sharing) slides
+	+ In-class: [More about Correlation](https://docs.google.com/presentation/d/1TNmvkcGnhIpZ3N-XLEJwuOcG9tDd6KbdIDzU4K6wivE/edit?usp=sharing) slides
+
