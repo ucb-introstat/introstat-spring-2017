@@ -286,3 +286,32 @@ This is a toy example that illustrates one difference between the median and the
 average. The median is more resistant (or robust) to extreme values,
 but not the average. Small and large values affect the average of a distribution.
 
+
+### Example
+
+The average and median of the first 99 values of a data set of 198 values are 
+all equal to 120. If the average and median of the final 99 values are all
+equal to 100, what can you say about the average of the entire data set. 
+What can you say about the median?
+
+You can solve these questions analytically, or you can use R. Here's how:
+
+```{r}
+# first 99 values equal to 120
+first_values = rep(120, times = 99)
+
+# final 99 values equal to 100
+final_values = rep(100, times = 99)
+
+# all values
+all_values = c(first_values, final_values)
+
+# average
+mean(all_values)
+
+# median
+median(all_values)
+```
+
+
+
