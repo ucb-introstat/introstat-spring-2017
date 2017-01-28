@@ -5,7 +5,7 @@ This is a Shiny app that generates scatter diagrams based on the specified corre
 
 ## Motivation
 
-The goal is to provide examples of scatter diagrams as those displayed on the FPP book, page 127.  __Statistics, Chapter 8: The Correlation Coefficient (page 127):
+The goal is to provide examples of scatter diagrams as those displayed on the FPP book, page 127. See Chapter 8: The Correlation Coefficient (page 127).
 
 The scatter diagrams are based on random generated data following a multivariate normal distribution.
 
