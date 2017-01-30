@@ -44,6 +44,7 @@ Tentative Calendar, Spring 2017
 	+ Practice: script about [measures of spread in R](../scripts/05-measures-spread.pdf)
 - JanFeb 30-03:
 	+ In-class: [Normal Curve](https://docs.google.com/presentation/d/1_6ZEhuTCDvxesw6H99nJxnJz7shMIU9Hzq4GzWzw0dE/edit?usp=sharing) slides
+	+ Practice: script about [normal curve in R](../scripts/06-normal-curve.pdf)
 	+ In-class: [Scatter Diagrams and Correlation](https://docs.google.com/presentation/d/1qLtoiX8CrpHL70lZ8LBQN0F-xHuwEnhpVNZalaBnSM8/edit?usp=sharing) slides
 	+ In-class: [More about Correlation](https://docs.google.com/presentation/d/1TNmvkcGnhIpZ3N-XLEJwuOcG9tDd6KbdIDzU4K6wivE/edit?usp=sharing) slides
 
