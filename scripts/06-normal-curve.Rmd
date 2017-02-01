@@ -46,9 +46,10 @@ for (i in variables) {
 par(op)
 ```
 
-`height` seems to have a slightly left skewed distribution, `weight` looks
-roughly symmetric, `age` has a right skewed distribution, and `points2_percent`
-appears to be fairly symmetric.
+- `height` seems to have a slightly left skewed distribution.
+- `weight` looks roughly symmetric.
+- `age` has a right skewed distribution.
+- `points2_percent` appears to be fairly symmetric.
 
 These distributions are examples of some of the possible patterns that 
 you will find when describing data in real life. If you are lucky, you may
@@ -56,9 +57,10 @@ even get to see a perfect symmetric distribution one day.
 
 Among the wide range of distribution shapes that we encounter when looking 
 at data, one special pattern has received most of the attention: the so-called 
-bell-shaped or mound-shaped distribution, like that of `points2_percent` and
-`weight`. It is true that these two histograms are far from perfect symmetry, 
-but we can put them within the _fairly_ bell-shaped category.
+_symmetric bell-shaped_ or mound-shaped distribution, like that of 
+`points2_percent` and `weight`. It is true that these two histograms are far 
+from perfect symmetry, but we can put them within the _fairly_ bell-shaped 
+category.
 
 
 ## Normal Curve
@@ -101,17 +103,17 @@ y = (1/sqrt(2 * pi)) * exp(-(x^2)/2)
 plot(x, y, type = "l", lwd = 3, col = "blue")
 ```
 
-First we generate some values for the x-axis ranging from -3 to 3. Then we
-use `x` to find the heights of the `y` variable. Finally, we use the values in
-`x` and `y` as coordinates of the `plot()`. The argument `type = 'l'` is used
-to graph a line instead of dots. The argument `lwd` allows to define the width
-of the line.
+First we generate a vector `x` with some values for the x-axis ranging from 
+-3 to 3. Then we use `x` to find the heights of the `y` variable. Finally, 
+we use the values in `x` and `y` as coordinates of the `plot()`. The argument 
+`type = 'l'` is used to graph a line instead of dots. The argument `lwd` allows 
+you to define the width of the line. And `col` lets you define a color.
 
 
 ## Normal Distribution Functions
 
-R provides functions for different (probability) distributions. In the case of 
-the Normal distribution, there is a family of four functions:
+Instead of working with the equation `y = (1/sqrt(2 * pi)) * exp(-(x^2)/2)`, 
+R has a family of four functions dedicated to the normal curve: 
 
 - `dnorm()` density function
 - `pnorm()` distribution function
@@ -124,7 +126,7 @@ the Normal distribution, there is a family of four functions:
 The function `dnorm()` is the __density__ function. This is actually the function
 that lets you find the height of the curve (i.e. $y$ values). Instead of 
 manually coding the normal equation, you can use `dnorm()` and get the 
-previously obtained graph:
+previously obtained graph like this:
 
 ```{r out.width='60%', fig.align='center'}
 x = seq(from = -3, to = 3, by = 0.01)
@@ -137,7 +139,7 @@ plot(x, y, type = "l", lwd = 3, col = "blue")
 ### Areas under the curve with `pnorm()`
 
 The function `pnorm()` is the distribution function. By default, `pnorm()`
-returns the area under the curve to the left of a specified `x` value. For
+returns the area under the curve to the __left__ of a specified `x` value. For
 instance, the area to the left of 0 is 0.5 or 50%:
 
 ```{r}
@@ -173,7 +175,7 @@ pnorm(1.5, lower.tail = FALSE)
 
 Sometimes you need to find areas in between two $z$ values. For instance, the
 area between -1 and 1 (which is about 68%). Finding this type of areas involves
-subtracting the larger area to the left of ` minus the smaller area to the 
+subtracting the larger area to the left of 1 minus the smaller area to the 
 left of -1:
 
 ```{r}
@@ -197,10 +199,10 @@ as the inverse of `pnorm()`. That is, for a given area under the curve, use
 `qnorm()` to find what is the corresponding `z` value (i.e. value on the x-axis):
 
 ```{r}
-# x-value such that the area to its left is 0.5
+# z-value such that the area to its left is 0.5
 qnorm(0.5)
 
-# x-value such that the area to its left is 0.3
+# z-value such that the area to its left is 0.3
 qnorm(0.3)
 ```
 
@@ -208,10 +210,10 @@ Likewise, you can use the argument `lower.tail = FALSE` to find values given
 a right-tail area:
 
 ```{r}
-# x-value such that the area to its right is 0.5
+# z-value such that the area to its right is 0.5
 qnorm(0.5, lower.tail = FALSE)
 
-# x-value such that the area to its right is 0.3
+# z-value such that the area to its right is 0.3
 qnorm(0.3, lower.tail = FALSE)
 ```
 
@@ -225,46 +227,55 @@ in inches, `weight` measured in ounces, `age` measured in years,
 as an approximation for symmetric bell-shaped distributions, you will need
 to convert the original units into __standard units__ (SU).
 
-Average and standard deviation of `height`
+Recall that the conversion formula from $x$ to standard units is:
+
+$$
+SU = \frac{x - avg}{SD}
+$$
+
+Let's see how you could convert `weight` values to SU using R. First we need
+to obtain find the average and standard deviation of `weight`:
 
 ```{r}
-# average height
-avg_height = mean(nba$height)
-avg_height
+# average weight
+avg_weight = mean(nba$weight)
+avg_weight
 
-# SD height
+# SD weight
 # (remember to use correction factor)
 n = nrow(nba)
-sd_height = sqrt((n-1)/n) * sd(nba$height)
-sd_height
+sd_weight = sqrt((n-1)/n) * sd(nba$weight)
+sd_weight
 ```
 
-To convert the heights of the first ten players to standard units, we need 
-to subtract the average and divide by the SD:
+To convert the weights of the players to standard units, subtract the average 
+and then divide by the SD:
 
 ```{r}
-su_height = (nba$height - avg_height) / sd_height
+# weight in SU
+su_weight = (nba$weight - avg_weight) / sd_weight
 
-# heights in SU of first 5 players
-su_height[1:5]
+# weights in SU of first 5 players
+su_weight[1:5]
 ```
 
 
-Histogram
+How does the histogram for `su_weight` look like?
 
 ```{r out.width='60%', fig.align='center'}
 # density histogram
-hist(su_height, las = 1, col = 'gray80', probability = TRUE,
+hist(su_weight, las = 1, col = 'gray80', probability = TRUE,
      ylim = c(0, 0.5), xlim = c(-3.5, 3.5),
-     main = 'Histogram of Height in SU', xlab = 'standard units')
+     main = 'Histogram of Weight in SU', xlab = 'standard units')
 ```
 
 
-Curve
+An alternative picture of the distribution of `su_weight` can be obtained by
+plotting a kernel density curve:
 
 ```{r out.width='60%', fig.align='center'}
-dens_height = density(su_height)
-plot(dens_height, axes = FALSE, ylim = c(0, 0.5), xlim = c(-3.5, 3.5),
+dens_weight = density(su_weight)
+plot(dens_weight, axes = FALSE, ylim = c(0, 0.5), xlim = c(-3.5, 3.5),
      main = 'Density Curve', xlab = 'standard units', lwd = 2, col = 'blue')
 # x-axis
 axis(side = 1)
@@ -272,25 +283,75 @@ axis(side = 1)
 axis(side = 2, las = 1)
 ```
 
+Looking at both the histogram, and the kernel density curve, the shape of the
+distribution is symmertric but it does not have a peak around zero.
+You can say that it has moero of a plateau or flat peak.
 
-### Using Normal Approximation
 
-About 50% of players should have a height below `avg_height`
+## Using Normal Approximation
+
+Although `weight` does not have the central peak, we can try to see how good 
+the normal curve approximates its distribution. From the attributes of the 
+normal curve, we know that 50% of players should have a height below 
+`avg_weight`. We can directly check what is the proportion of players below 
+`avg_weight`:
 
 ```{r}
-# proportion of players below average height
-sum(nba$height <= avg_height) / n
+# proportion of players below average weight
+sum(nba$weight <= avg_weight) / n
 ```
 
-About 68% of players should have heights between `r avg_height` plus-minus
-`r round(sd_height, 2)`, that is between `r round(avg_height - sd_height, 2)`
- and `r round(avg_height + sd_height, 2)`
+This confirms that `weight` (and `su_weight`) does have a symmetric shape.
+
+From the empirical 68-95-99.7 rule, we know that about 68% of players should 
+have weights between `r round(avg_weight, 2)` plus-minus
+`r round(sd_weight, 2)`, that is, between `r round(avg_weight - sd_weight, 2)`
+ and `r round(avg_weight + sd_weight, 2)`
  
 ```{r}
-height_minus = avg_height - sd_height
-height_plus = avg_height + sd_height
+weight_minus = avg_weight - sd_weight
+weight_plus = avg_weight + sd_weight
 
-# proportion of players within 1 SD from average height
-sum(nba$height <= height_plus & nba$height >= height_minus) / n
+# proportion of players within 1 SD from average weight
+sum(nba$weight <= weight_plus & nba$weight >= weight_minus) / n
 ```
 
+As you can tell, the proportion of players around 1 SD is not 68% but 65%. 
+However, the difference of 3% is not that big.
+
+
+### Asumming Normality ...
+
+Let's pretend that `wheight` does have a symmetric bell-shaped distribution,
+and that we are interested in finding the proportion of players with weights
+below 200 pounds.
+
+You can use `pnorm()` to find such proportion, and without having to convert
+to standard units. All you need to do is specify the `mean` and `sd` arguments
+with the corresponding average and SD values, respectively:
+
+```{r}
+# proportion of players with weight below 200 pounds
+pnorm(200, mean = avg_weight, sd = sd_weight)
+```
+
+To find the proportion of players with weights above 230 pounds, include the
+argument `lower.tail = FALSE`:
+
+```{r}
+# proportion of players with weight above 230 pounds
+pnorm(230, mean = avg_weight, sd = sd_weight, lower.tail = FALSE)
+```
+
+You can also use `qnorm()` to find what would be the corresponding weight
+such that 60% of players are below it:
+
+```{r}
+qnorm(0.6, mean = avg_weight, sd = sd_weight)
+```
+
+Or what is the weight wuch that 35% of players are above it:
+
+```{r}
+qnorm(0.35, mean = avg_weight, sd = sd_weight, lower.tail = FALSE)
+```
