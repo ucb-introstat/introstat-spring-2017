@@ -8,10 +8,10 @@ urlcolor: blue
 
 > ### Learning Objectives
 >
-> - Becoming familiar with various measures of spread
-> - Intro to the functions `range()`, `IQR()`, and `sd()`
-> - Understand the concept of r.m.s. size of a list of numbers
-> - Be aware of the difference between SD and SD+
+> - How to use `plot()` to create scatter diagrams
+> - Adding points with `points()`
+> - Adding lines with `abline()`
+> - How to use `ggplot()` to create scatter diagrams
 
 
 ```{r setup, include=FALSE}
@@ -25,10 +25,8 @@ I should say that `plot()` produces different kinds of plots depending on the
 type of input(s) that you pass to it.
 
 If you pass two numeric variables (i.e. two R vectors) `x` and `y`, `plot()`
-will produce a scatter diagram.
-
-Let's consider the following toy data table, and use `height` and `weight`
-to create a scatter diagram.
+will produce a scatter diagram. For example, consider the `height` and `weight` 
+variables of the following toy data table:
 
 ```{r echo = FALSE}
 library(xtable)
@@ -40,12 +38,14 @@ dat = data.frame(
 )
 ```
 
-
 ```{r, echo=FALSE, results='asis', message=FALSE}
 xtb <- xtable(dat, digits = 2)
 print(xtb, comment = FALSE, type = 'latex',
       include.rownames = FALSE)
 ```
+
+To make a scatter diagram with `height` and `weight`, you can create two 
+vectors and pass them to `plot()`:
 
 ```{r out.width='50%', fig.align='center', fig.width=3, fig.height=3.5}
 height = c(172, 150, 182, 66, 228)  # in centimeters
@@ -94,15 +94,90 @@ plot(height, weight,
 ```
 
 
+## Adding points and lines
+
+Often, you may want to add more points and/or line(s) to a given plot. When
+you use `plot()`, you add points with `points()`, and lines with `abline()`.
+
+For example, say you want to add the point of averages. First, get the
+averages:
+
+```{r}
+avg_height = mean(height)
+avg_weight = mean(weight)
+```
+
+Once you have the coordinates of the point of averages, you can `plot()` again 
+the scatter diagram, adding the point of averages with `points()`:
+
+```{r out.width='50%', fig.align='center', fig.width=4, fig.height=4.5}
+# scatter diagram
+plot(height, weight, 
+     las = 1,         # orientation of y-axis tick marks 
+     pch = 19,        # filled dots
+     col = '#598CDD', # color of dots
+     xlab = 'Height (cm)',   # x-axis label
+     ylab = 'Weight (kg)',   # y-axis label
+     main = 'Height -vs- Weight scatter diagram')
+# point of averages
+points(avg_height, avg_weight, pch = 19, cex = 2, col = "tomato")
+```
+
+
+Another common task involves adding one or more lines to a scatter diagram
+produced by `plot()`. One option to achieve this task is via the `abline()`
+function. Here's an example showing the previous scatter diagram, with two
+guide lines corresponding to the point of averages
+
+```{r out.width='50%', fig.align='center', fig.width=4, fig.height=4.5}
+# scatter diagram
+plot(height, weight, 
+     las = 1,         # orientation of y-axis tick marks 
+     pch = 19,        # filled dots
+     col = '#598CDD', # color of dots
+     xlab = 'Height (cm)',   # x-axis label
+     ylab = 'Weight (kg)',   # y-axis label
+     main = 'Height -vs- Weight scatter diagram')
+# guide lines for point of avgs
+abline(h = avg_weight, v = avg_height, col = "tomato")
+# point of averages
+points(avg_height, avg_weight, pch = 19, cex = 2, col = "tomato")
+```
+
+The argument `h` is used to specify the y-value for _horizontal_ lines; 
+the argument `v` is used to specify the x-value for _vertical_ lines.
+
+If what you want is to specify a line with intercept `a` and slope `b`, then
+specify these arguments inside `abline()`:
+
+```{r out.width='50%', fig.align='center', fig.width=4, fig.height=4.5}
+# scatter diagram
+plot(height, weight, 
+     las = 1,         # orientation of y-axis tick marks 
+     pch = 19,        # filled dots
+     col = '#598CDD', # color of dots
+     xlab = 'Height (cm)',   # x-axis label
+     ylab = 'Weight (kg)',   # y-axis label
+     main = 'Height -vs- Weight scatter diagram')
+# guide lines for point of avgs
+abline(h = avg_weight, v = avg_height, col = "tomato")
+# line with intercep and slope
+abline(a = 40, b = 0.3, col = "gray50", lty = 2, lwd = 2)
+# point of averages
+points(avg_height, avg_weight, pch = 19, cex = 2, col = "tomato")
+```
+
+
+
 ## Scatter diagrams with `ggplot2`
 
-Another approach to create scatter diagrams is to use functions from the 
+Another approach to create scatter diagrams in R is to use functions from the 
 package `"ggplot2"`. This package provides a different philosophy to define
 graphs, and it also produces plots with visual attributes carefully chosen
 to provide prettier plots.
 
 You should have the package `"ggplot2"` already installed, since you were 
-supposed to use it for HW02. Assuming that his is the case, you need to load 
+supposed to use it for HW02. Assuming that this is the case, you need to load 
 `"ggplot2"` with the function `library()` in order to start using its functions:
 
 ```{r warning=FALSE, message=FALSE}
@@ -115,7 +190,7 @@ to be in the form of a data frame:
 
 ```{r}
 dat = data.frame(
-  name = c('Luke', 'Leia', 'Obi-Wan', 'Yoda', 'Chebacca'),
+  name = c('Luke', 'Leia', 'Obi-Wan', 'Yoda', 'Chewbacca'),
   sex = c('male', 'female', 'male', 'male', 'male'),
   height = c(172, 150, 182, 66, 228),
   weight = c(77, 49, 44, 78, 112)
@@ -124,10 +199,19 @@ dat = data.frame(
 
 To create a scatter diagram with `"ggplot2"`, type the following commands:
 
-```{r out.width='50%', fig.align='center', fig.width=4, fig.height=4}
+```{r out.width='40%', fig.align='center', fig.width=3, fig.height=3}
 ggplot(data = dat, aes(x = height, y = weight)) +
   geom_point()
 ```
+
+- The main input of `ggplot()` is `data` which takes the name of the data 
+frame containing the variables.
+- The `aes()` function---inside `ggplot()`---allows you to specify which 
+variables will be used for the `x` and `y` positions.
+- The `+` operator is used to add a _layer_, in this case, the layer corresponds
+to `geom_point()`
+- The function `geom_point()` specifies the type of geometric object to be 
+displayed: points (since we want a scatter diagram with dots). 
 
 As you can tell, the default chart produced by `ggplot()` is nicer than the
 one produced with `plot()`. You can customize the previous graph to add more
@@ -145,6 +229,47 @@ Here's another example of a scatter diagram that includes labels for each dot:
 ```{r out.width='60%', fig.align='center', fig.width=5, fig.height=4}
 ggplot(data = dat, aes(x = height, y = weight)) +
   geom_point(size = 3) +
+  geom_text(aes(label = name), hjust=0, vjust=0) +
+  xlim(0, 300) +
+  theme_bw() +
+  ggtitle("Height -vs- Weight scatter diagram")
+```
+
+Adding specific points with `ggplot()` is a bit trickier. This is because
+you need to provide data to `ggplot()` in the form of a data.frame. In order 
+to plot the point of averages with `ggpot()`, we need to create a data frame
+for such a point:
+
+```{r}
+# data frame for the point of averages
+avgs = data.frame(height = avg_height, weight = avg_weight)
+avgs
+```
+
+One way to add the point of averages is to use `geom_point()` twice: one for 
+the heighths and weights of the individuals, and the second time for the 
+point of averages:
+
+```{r out.width='60%', fig.align='center', fig.width=5, fig.height=4}
+ggplot(data = dat, aes(x = height, y = weight)) +
+  geom_point(size = 3) +
+  geom_point(data = avgs, aes(x = height, y = weight), 
+             col = "tomato", size = 4) +
+  geom_text(aes(label = name), hjust=0, vjust=0) +
+  xlim(0, 300) +
+  theme_bw() +
+  ggtitle("Height -vs- Weight scatter diagram")
+```
+
+Finally, here's how to add guide lines for the point of averages:
+
+```{r out.width='60%', fig.align='center', fig.width=5, fig.height=4}
+ggplot(data = dat, aes(x = height, y = weight)) +
+  geom_point(size = 3) +
+  geom_point(data = avgs, aes(x = height, y = weight), 
+             col = "tomato", size = 4) +
+  geom_vline(xintercept = avg_height, col = 'tomato') +
+  geom_hline(yintercept = avg_weight, col = 'tomato') +
   geom_text(aes(label = name), hjust=0, vjust=0) +
   xlim(0, 300) +
   theme_bw() +
