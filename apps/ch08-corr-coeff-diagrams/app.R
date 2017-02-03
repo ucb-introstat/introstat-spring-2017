@@ -71,8 +71,7 @@ server <- function(input, output) {
      abline(h=0, v=0, col="gray80", lwd = 2)
      points(xy[,1], xy[,2], pch=20, cex=input$cex,
             col=rgb(0.45, 0.59, 0.84, alpha = input$alpha))
-   },
-   height = 600)
+   })
 }
 
 # Run the application 
