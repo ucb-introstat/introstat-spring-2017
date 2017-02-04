@@ -81,7 +81,7 @@ No individual letter grades will be given for midterm, or final. You will get a 
 ### Calculator Policy
 
 - You will need one that adds, subtracts, multiplies, divides, takes square roots, raises numbers to a power, and preferably also computes factorials. Statistical calculators are unnecessary.
-- However, no phone calculators or tablet calculators are allowed.
+- However, no graphing calculators, phone calculators or tablet calculators are allowed.
 - If you do not bring a calculator to a midterm or the final, do your computations by hand (you won't be allowed to borrow someone else's calculator).
 
 
