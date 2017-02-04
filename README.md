@@ -8,18 +8,21 @@ This repository holds the course materials for the Spring 2017 edition of:
 
 ## Contents
 
-- Syllabus
-- Lectures
-- HW Assignments
-- Labs
-- Scripts
-- Apps
-- Data
+- [Syllabus](syllabus)
+- [Lectures](lectures)
+- [HW Assignments](hw)
+- [Labs](labs)
+- [Scripts](scripts)
+- [Apps](apps)
+- [Data](data)
+- [Other](other)
 
 
 ## R and RStudio
 
-We will use the statistical software R and the [IDE](https://en.wikipedia.org/wiki/Integrated_development_environment) RStudio as a computational tool to
+We will use the statistical software __[R](https://www.r-project.org/)__ and the 
+[IDE](https://en.wikipedia.org/wiki/Integrated_development_environment) 
+__[RStudio](https://www.rstudio.com/)__ as a computational tool to
 practice and apply the key concepts of the course.
 
 Both R and RStudio are free, and are available for Mac OS X, Windows, and Linux. 	
