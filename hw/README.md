@@ -36,11 +36,12 @@ Tentative Calendar, Spring 2017
       <td>Feb 09</td>
       <td>
         Ch-5: C1, D1, E3, Rev7,10</br>
-        Ch-8: B6,8,9, R9</td>
+        Ch-8: B6,8,9, R9, extra questions</td>
     </tr>
     <tr>
       <td>4</td>
       <td>Feb 16</td>
+      <td>
         Ch-9: A10, B2, E3, R4,8</td>
     </tr>
     <tr>
