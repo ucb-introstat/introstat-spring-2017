@@ -7,8 +7,8 @@ Tentative Calendar, Spring 2017
 |------|--------|-------------------------|------------------------|-----------------------|
 |  0   | Jan-16	|                         | Data and variables	   | Intro to R & RStudio  |
 |  1   | Jan-23	| Ch 3: Histograms	      | Ch 4: Average          | Ch 4: Spread          |
-|  2   | Jan-30	| Ch 5: Normal curve      | Ch 8: Correlation      | Ch 9: Correlation     |
-|  3   | Feb-06	| Ch 10: Regression	      | Ch 10: Regression      | Ch 12: Regression line|
+|  2   | Jan-30	| Ch 5: Normal curve      | Ch 5: Normal Curve     | Ch 8: Correlation     |
+|  3   | Feb-06	| Ch 9: More Correlation  | Ch 10: Regression      | Ch 12: Regression line|
 |  4   | Feb-13	| Regression in R         | Ch 11: RMS error	   | Ch 11: RMS error	   |
 |  5   | Feb-20	| _Holiday_               | Review                 | __MIDTERM 1__         |
 |  6   | Feb-27	| Ch 13: Probability	  | Ch 13: Probability     | Ch 14: More prob.     |
@@ -46,5 +46,8 @@ Tentative Calendar, Spring 2017
 	+ In-class: [Normal Curve](https://docs.google.com/presentation/d/1_6ZEhuTCDvxesw6H99nJxnJz7shMIU9Hzq4GzWzw0dE/edit?usp=sharing) slides
 	+ Practice: script about [normal curve in R](../scripts/06-normal-curve.pdf)
 	+ In-class: [Scatter Diagrams and Correlation](https://docs.google.com/presentation/d/1qLtoiX8CrpHL70lZ8LBQN0F-xHuwEnhpVNZalaBnSM8/edit?usp=sharing) slides
+	+ Practice: script about [scatter diagrams in R](../scripts/07-scatter-diagrams.pdf)
+- Feb 06-10:
 	+ In-class: [More about Correlation](https://docs.google.com/presentation/d/1TNmvkcGnhIpZ3N-XLEJwuOcG9tDd6KbdIDzU4K6wivE/edit?usp=sharing) slides
+	+ In-class: [Intro to Regression](https://docs.google.com/presentation/d/10eQJ3DxVVuC00mQ5aEBNb0nWZh8oX-vJ5mCJRQH39VA/edit?usp=sharing) slides
 
