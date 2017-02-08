@@ -235,7 +235,7 @@ x = c(0, 5, -8, 7, -3)
 n = length(x)
 
 # SD
-sqrt(n/(n-1)) * sd(x)
+sqrt((n-1)/n) * sd(x)
 
 # SD+
 sd(x)
