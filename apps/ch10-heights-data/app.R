@@ -72,7 +72,7 @@ server <- function(input, output) {
     axis(side = 1)
     axis(side = 2, las = 1)
     points(dat[,input$xvar], dat[,input$yvar],
-           pch = 21, col = 'white', bg = '#999999aa',
+           pch = 21, col = 'white', bg = '#777777aa',
            lwd = 2, cex = input$cex)
     # Point of Averages
     if (input$point_avgs) {

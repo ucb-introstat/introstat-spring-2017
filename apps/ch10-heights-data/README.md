@@ -36,5 +36,5 @@ There are many ways to download the app and run it:
 library(shiny)
 
 # Easiest way is to use runGitHub
-runGitHub("introstat-spring-2017", "ucb-introstat", subdir = "apps/ch08-correlation")
+runGitHub("introstat-spring-2017", "ucb-introstat", subdir = "apps/ch10-heights-data")
 ```
