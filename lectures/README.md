@@ -49,5 +49,6 @@ Tentative Calendar, Spring 2017
 	+ Practice: script about [scatter diagrams in R](../scripts/07-scatter-diagrams.pdf)
 - Feb 06-10:
 	+ In-class: [More about Correlation](https://docs.google.com/presentation/d/1TNmvkcGnhIpZ3N-XLEJwuOcG9tDd6KbdIDzU4K6wivE/edit?usp=sharing) slides
-	+ In-class: [Intro to Regression](https://docs.google.com/presentation/d/10eQJ3DxVVuC00mQ5aEBNb0nWZh8oX-vJ5mCJRQH39VA/edit?usp=sharing) slides
+	+ In-class: [A bit of history about origins of regression](https://docs.google.com/presentation/d/1VBdCiJn_QmfeTsCzP29RlL4ldjripPdrSXkUSYfq0Rc/edit?usp=sharing) auxiliary slides
+	+ In-class: [Intro to Regression Method](https://docs.google.com/presentation/d/10eQJ3DxVVuC00mQ5aEBNb0nWZh8oX-vJ5mCJRQH39VA/edit?usp=sharing) slides
 
