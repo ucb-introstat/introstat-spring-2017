@@ -35,31 +35,33 @@ Tentative Calendar, Spring 2017
       <td>3</td>
       <td>Feb 09</td>
       <td>
-        Ch-5: C1, D1, E3, Rev7,10</br>
+        Ch-5: C1, D1, E3, Rev7,10<br>
         Ch-8: B6,8,9, R9, extra questions</td>
     </tr>
     <tr>
       <td>4</td>
       <td>Feb 16</td>
       <td>
-        Ch-9: A10, B2, E3, R4,8</td>
+        Ch-9: A10, B2, E3, R4,8<br>
+        Ch-10: A2,4, C4, extra questions</td>
     </tr>
     <tr>
       <td>5</td>
       <td>Feb 23</td>
-      <td>Ch-10: A2,4, C4, R3,4<br>
-        Ch-11: B1,2, C1</td>
+      <td>Ch-10: C2, R3,4<br>
+        Ch-11: B1,2, C1, R4,7<br>
+        Ch-12: R,4,5,6,7</td>
     </tr>
     <tr>
       <td>6</td>
       <td>Mar 02</td>
-      <td>Ch-11: R4,7, <br>
-        Ch-12: R,4,5,6,7</td>
+      <td>Ch-13: R2,4,7,8,9
+        </td>
     </tr>
     <tr>
       <td>7</td>
       <td>Mar 09</td>
-      <td>Ch-13: R2,4,7,8,9<br>
+      <td>
         Ch-14: R1,3,5,6,9</td>
     </tr>
     <tr>
