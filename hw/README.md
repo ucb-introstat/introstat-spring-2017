@@ -1,8 +1,8 @@
 ## Homework Assignments
 
 - HW assignments are due on Thursdays (before midnight).
-- Further instructions will be posted on bCourses (see "Asignments" section).
-- Submit your homework via bCourses electronically as a word, text, pdf, or html file. 
+- Further instructions will be posted on bCourses (see "Assignments" section).
+- Submit your homework electronically via bCourses as a word, text, pdf, or html file. 
 - Please do NOT submit any other file format (e.g. `.pages`, `.Rmd`, `.R`) since it won't be rendered on bCourses.
 - Please become familiar with the HW policy described in the syllabus.
 
@@ -49,8 +49,8 @@ Tentative Calendar, Spring 2017
       <td>5</td>
       <td>Feb 23</td>
       <td>Ch-10: C2, R3,4<br>
-        Ch-11: B1,2, C1, R4,7<br>
-        Ch-12: R,4,5,6,7</td>
+        Ch-11: B1,2, D2, E1, R4,7<br>
+        Ch-12: R3,5</td>
     </tr>
     <tr>
       <td>6</td>
