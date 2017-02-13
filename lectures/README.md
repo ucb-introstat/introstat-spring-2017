@@ -8,7 +8,7 @@ Tentative Calendar, Spring 2017
 |  0   | Jan-16	|                         | Data and variables	   | Intro to R & RStudio  |
 |  1   | Jan-23	| Ch 3: Histograms	      | Ch 4: Average          | Ch 4: Spread          |
 |  2   | Jan-30	| Ch 5: Normal curve      | Ch 5: Normal Curve     | Ch 8: Correlation     |
-|  3   | Feb-06	| Ch 9: More Correlation  | Ch 10: A bit history   | Ch 10: Regression     |
+|  3   | Feb-06	| Ch 9: More Correlation  | History of Regression  | Ch 10: Regression     |
 |  4   | Feb-13	| Ch 11: RMS Error        | Ch 12: Regression line | Regression in R	   |
 |  5   | Feb-20	| _Holiday_               | Review                 | __MIDTERM 1__         |
 |  6   | Feb-27	| Ch 13: Probability	  | Ch 13: Probability     | Ch 14: More prob.     |
