@@ -8,8 +8,8 @@ Tentative Calendar, Spring 2017
 |  0   | Jan-16	|                         | Data and variables	   | Intro to R & RStudio  |
 |  1   | Jan-23	| Ch 3: Histograms	      | Ch 4: Average          | Ch 4: Spread          |
 |  2   | Jan-30	| Ch 5: Normal curve      | Ch 5: Normal Curve     | Ch 8: Correlation     |
-|  3   | Feb-06	| Ch 9: More Correlation  | Ch 10: Regression      | Ch 12: Regression line|
-|  4   | Feb-13	| Regression in R         | Ch 11: RMS error	   | Ch 11: RMS error	   |
+|  3   | Feb-06	| Ch 9: More Correlation  | Ch 10: A bit history   | Ch 10: Regression     |
+|  4   | Feb-13	| Ch 11: RMS Error        | Ch 12: Regression line | Regression in R	   |
 |  5   | Feb-20	| _Holiday_               | Review                 | __MIDTERM 1__         |
 |  6   | Feb-27	| Ch 13: Probability	  | Ch 13: Probability     | Ch 14: More prob.     |
 |  7   | Mar-06	| Ch 15: Binomial Formula |	Ch 16: Law of Averages | Ch 16: Box Models     |
@@ -51,4 +51,7 @@ Tentative Calendar, Spring 2017
 	+ In-class: [More about Correlation](https://docs.google.com/presentation/d/1TNmvkcGnhIpZ3N-XLEJwuOcG9tDd6KbdIDzU4K6wivE/edit?usp=sharing) slides
 	+ In-class: [A bit of history about origins of regression](https://docs.google.com/presentation/d/1VBdCiJn_QmfeTsCzP29RlL4ldjripPdrSXkUSYfq0Rc/edit?usp=sharing) auxiliary slides
 	+ In-class: [Intro to Regression Method](https://docs.google.com/presentation/d/10eQJ3DxVVuC00mQ5aEBNb0nWZh8oX-vJ5mCJRQH39VA/edit?usp=sharing) slides
+- Feb 13-17
+	+ In-class: [R.M.S. Error for Regression](https://docs.google.com/presentation/d/1KSws7X-9jr1YWtJwPUmdnooodMqBMzRLjDWhsgq04Iw/edit?usp=sharing) slides
+	+ In-class: [Regression Line](https://docs.google.com/presentation/d/1bEV8MWCZ6xE2zm5egZXq5wcXOGOnHDJiJvj2tTGMhyI/edit?usp=sharing) slides
 
