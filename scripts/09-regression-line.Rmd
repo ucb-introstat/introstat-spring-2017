@@ -11,21 +11,13 @@ urlcolor: blue
 >
 > - How to run a regression analysis in R
 > - Getting to know the function `lm()`
-> - How add the regression line to a scatter diagram
+> - How to add the regression line to a scatter diagram
 > - How to "manually" compute the slope and intercept of regression line
 
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
-
-#### About
-
-In this tutorial I will show you how to:
-
-- perform a Regression analysis in R.
-- interpret the output and main results.
-- use R to obtain the results the way they are calcuated in the book.
 
 
 ## Introduction
