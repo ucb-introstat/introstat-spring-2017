@@ -51,7 +51,9 @@ Tentative Calendar, Spring 2017
 	+ In-class: [More about Correlation](https://docs.google.com/presentation/d/1TNmvkcGnhIpZ3N-XLEJwuOcG9tDd6KbdIDzU4K6wivE/edit?usp=sharing) slides
 	+ In-class: [A bit of history about origins of regression](https://docs.google.com/presentation/d/1VBdCiJn_QmfeTsCzP29RlL4ldjripPdrSXkUSYfq0Rc/edit?usp=sharing) auxiliary slides
 	+ In-class: [Intro to Regression Method](https://docs.google.com/presentation/d/10eQJ3DxVVuC00mQ5aEBNb0nWZh8oX-vJ5mCJRQH39VA/edit?usp=sharing) slides
+	+ Practice: script about [Regression Line with R](../scripts/09-regression-line.pdf)
 - Feb 13-17
 	+ In-class: [R.M.S. Error for Regression](https://docs.google.com/presentation/d/1KSws7X-9jr1YWtJwPUmdnooodMqBMzRLjDWhsgq04Iw/edit?usp=sharing) slides
+	+ Practice: script about [Predictions and Errors in Regression with R](../scripts/10-prediction-and-errors-in-regression.pdf)
 	+ In-class: [Regression Line](https://docs.google.com/presentation/d/1bEV8MWCZ6xE2zm5egZXq5wcXOGOnHDJiJvj2tTGMhyI/edit?usp=sharing) slides
 
