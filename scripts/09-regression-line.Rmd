@@ -1,5 +1,5 @@
 ---
-title: "Regression in R"
+title: "Regression Line in R"
 subtitle: "Intro to Stats, Spring 2017"
 author: "Prof. Gaston Sanchez"
 output: html_document
@@ -12,7 +12,7 @@ urlcolor: blue
 > - How to run a regression analysis in R
 > - Getting to know the function `lm()`
 > - How add the regression line to a scatter diagram
-> - How to graph the plot of residuals
+> - How to "manually" compute the slope and intercept of regression line
 
 
 ```{r setup, include=FALSE}
@@ -300,7 +300,7 @@ to display the intercept $b_0$, and the slope $b_1$. While the intercept
 has the same name `(Intercept)`, the slope is displayed with the name of the 
 associated variable, `Father`.
 
-As you can tell, the printed output of `reg` is kind of minimalist. However, 
+The printed output of `reg` is kind of minimalist. However, 
 `reg` contains more information. To see a list of the different components in 
 `reg`, use the function `names()`:
 
@@ -341,50 +341,44 @@ For the purposes and scope of this course, the important output of an `"lm"`
 object are the elements `coefficients`, `residuals`, and `fitted.values`.
 
 
+## Plotting the Regression Line
 
-### Summary output
+Having obtained the `"lm"` object `reg`, we can use it to get a scatterplot with the regression line on it. The simplest way to achieve this visualization is to first create a scatter diagram with `plot()`, and then add the regression line with the function `abline()`; here's the code in R:
 
-Let me repeat it: the object `reg` is a special type of object. More precisely, 
-`reg` is an object of class `"lm"`---linear model. For this type of R object, 
-you can use the `summary()` function to get additional information and diagnostics:
-
-```{r}
-# summarized linear model
-sum_reg = summary(reg)
-sum_reg
+```{r out.width='60%', fig.align='center', fig.width=6, fig.height=6}
+# scatterplot with regression line
+plot(dat$Father, dat$Son)
+abline(reg, lwd = 2)
 ```
 
-The information displayed by `summary()` is the typical output that most 
-statistical programs provide about a simple linear regression model. There 
-are four major parts: 
+The function `abline()` allows you to add lines to a `plto()`. The good news is that it recognizes objects of class `"lm"`, and when invoked after a `plot()` is created, it will add the regression line. Again, to get a nicer plot, you can do something like this:
 
-- `Call`: the command used when invoking `lm()`.
-- `Residuals`: summary indicators of the residuals.
-- `Coefficients`: table of regression coefficients.
-- Additional statistics: more diagnostics toosl.
-
-In the same way that `lm()` produces `"lm"` objects, `summary()` of `"lm"` 
-objects produce `"summary.lm"` objects. This type of objects also contain 
-more information than what is displayed by default. To see the list of all the 
-components in `sum_reg`, you can use again the function `names()`:
-
-```{r}
-names(sum_reg)
+```{r out.width='60%', fig.align='center', fig.width=6, fig.height=6}
+# scatterplot with regression line
+plot.new()
+plot.window(xlim = c(58, 80), ylim = c(58, 80))
+points(dat$Father, dat$Son, pch = 20, cex = 0.5)
+abline(reg, col = "tomato", lwd = 2)   # regression line
+axis(side = 1, pos = 58, at = seq(58, 80, 2))
+axis(side = 2, las = 1, pos = 58, at = seq(58, 80, 2))
 ```
 
 
-## Computing Regression Coefficients
+## Computing Intercept and Slope
 
-Let $\hat{y_i} = b_0 + b_1 x_i$ be the prediction for 
-$Y$ based on the $i$th value of $X$. Then $e_i = y_i - \hat{y_i}$ represents 
-the $i$th _residual_. We define the __residual sum of squares__ (RSS) as
+The function `lm()` does pretty much all the job for you. But you can still sue R to "manually" calculate the slope and the intercept of the regression line. In chapter 10 of FPP, the formula of the slope for the regression line is presented as:
 
 $$
-RSS = e_{1}^{2} + e_{2}^{2} + \dots + e_{n}^{2}
+slope = r \times \frac{SD_y}{SD_x}
 $$
 
-The __least squares__ approach chooses $b_0$ and $b_1$ to minimize the RSS. 
-The solution is given by:
+In turn, Chapter 12 presents the formula of the intercept as:
+
+$$
+intercept = avg_y - slope \times avg_x
+$$
+
+Using the more standard notation $b_0$ (intercept) and $b_1$ (slope), we have that:
 
 $$
 b_1 = r \frac{SD_y}{SD_x}
@@ -396,15 +390,7 @@ $$
 b_0 = avg_y - b_1 \times avg_x 
 $$
 
-where:
-
-- $r$ is the correlation coefficient.
-- $avg_x$ is the average of $X$.
-- $avg_y$ is the average of $Y$.
-- $SD_x$ is the standard deviation of $X$.
-- $SD_y$ is the standard deviation of $Y$.
-
-You can compare the coefficients given by `lm()` with our own calculated 
+You can compare the coefficients given by `lm()` with your own calculated 
 $b_1$ and $b_0$ according to the previous formulas. First let's get the main 
 ingredients:
 
@@ -440,90 +426,5 @@ b0
 reg$coefficients
 ```
 
+As expected, the output of `lm()` matches the calculated intercept and slope.
 
-### Are residuals homoscedastic?
-
-As you know, the main assumption in a simple regression analysis is that $X$ 
-and $Y$ are approximately linear related. This means that we can 
-use a line as a good summary for the cloud of points. For a line to able to do 
-a good summarizing job, the amount of spread around the line should be fairly
-the same (i.e. constant). This requirement has a very specific---and rather 
-ugly---name: __homoscedasticity__; which simply means "same scatter".
-Visually, homoscedascity comes in the form of the so-called football-shaped 
-cloud of points. Or in a more geometric sense, cloud of points with a chiefly 
-elliptical shape.
-
-The `"lm"` object `reg` contains the vector of redisuals (see `reg$residuals`).
-The residuals from the regression line must average out to 0. To confirm this,
-let's get their average:
-
-```{r}
-mean(reg$residuals)
-```
-
-You can take a look at the _residual plot_ by running this command:
-
-```{r out.width='60%', fig.align='center', fig.width=6, fig.height=5}
-# residuals plot
-plot(reg, which = 1)
-```
-
-which is equivalent to this other command:
-
-```{r eval = FALSE}
-# equivalently
-plot(reg$fitted.values, reg$residuals)
-```
-
-This residual plot is not exactly the same that the book describes (pages 187-188).
-To plot the residuals like the book does, you would need to use the `Father` 
-in the x-axis:
-
-```{r out.width='60%', fig.align='center', fig.width=6, fig.height=5}
-# residuals plot
-plot(dat$Father, reg$residuals)
-```
-
-The difference is only in the scale of the horizontal axis. But the important 
-part in both plots is the shape of the cloud.
-As you look across the residual plot, there is no systematic tendency for the 
-points to drift up or down. The red line displayed by `plot(reg, which = 1)`, 
-is a regression line for the residuals. When residuals are homoscedastic, this 
-line is basically a horizontal line.
-
-
-## Predicting Values
-
-As I mentioned in the introduction of this tutorial, regression tools are 
-mainly used for prediction purposes. This means that we can use the estimated 
-regerssion line $\mathtt{Son} \approx b_0 + b_1 \mathtt{Father}$, to predict 
-the height of son given a particular Father's height.
-
-For example, if a father has a height of 71 inches, what is the predicted 
-son's height? One way to answer this question using R is like this:
-
-```{r}
-# predict height of son with a 71 in. tall father
-b0 + b1 * 71
-```
-
-But you can also use the `predict()` function. The first argument must be an 
-`"lm"` object; the second argument must be a data frame containing the values 
-for `Fater`:
-
-```{r}
-# new data (must be a data frame)
-newdata = data.frame(Father = 71)
-
-# predict son's height
-predict(reg, newdata)
-```
-
-If you want to know the predicted values based on several `Father`'s heights, 
-then do something like this:
-
-```{r}
-more_data = data.frame(Father = c(65, 66.7, 67, 68.5, 70.5, 71.3))
-
-predict(reg, more_data)
-```
