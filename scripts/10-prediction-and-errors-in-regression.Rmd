@@ -1,0 +1,275 @@
+---
+title: "Predictions and Errors in Regression"
+subtitle: "Intro to Stats, Spring 2017"
+author: "Prof. Gaston Sanchez"
+output: html_document
+fontsize: 11pt
+urlcolor: blue
+---
+
+> ### Learning Objectives
+>
+> - Calculating predicted values with the regression method
+> - Looking at the regression residuals
+> - Calculating r.m.s. error for regression
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+## Introduction
+
+In the previous script, you learned about the function `lm()` to obtain a simple lienar regression model. Specifically, we looked at the regression `coefficients`: the intercept and the slope. You also learned how to plot a scatter diagram with the regression line, via the `abline()` function, as well as how to "manually" calculate the intercept and slope with the formulas:
+
+$$
+slope = r \times \frac{SD_y}{SD_x}
+$$
+
+In turn, Chapter 12 presents the formula of the intercept as:
+
+$$
+intercept = avg_y - slope \times avg_x
+$$
+
+
+## Regression with Height Data Set
+
+To cotinue our discussion, we'll keep using the data set in the file csv file `pearson.csv` (in the github repository):
+
+```{r}
+# assembling the URL of the CSV file
+# (otherwise it won't fit within the margins of this document)
+repo = 'https://raw.githubusercontent.com/ucb-introstat/introstat-spring-2017/'
+datafile = 'master/data/pearson.csv'
+url = paste0(repo, datafile)
+
+# read in data set
+dat = read.csv(url)
+```
+
+The data frame `dat` contains `r nrow(dat)` rows, and `r ncol(dat)` columns:
+
+- `Father`: height of the father (in inches)
+- `Son`: height of the son (in inches)
+
+Here's a reminder on how to use the function `lm()` to regress `Son` on `Father`:
+
+```{r}
+# run regression analysis
+reg = lm(Son ~ Father, data = dat)
+reg
+```
+
+You can compare the coefficients given by `lm()` with your own calculated 
+$b_1$ and $b_0$ according to the previous formulas. First let's get the main 
+ingredients:
+
+```{r}
+# number of values (to be used for correcting SD+)
+n = nrow(dat)
+
+# averages
+avg_x = mean(dat$Father)
+avg_y = mean(dat$Son)
+
+# SD (corrected SD+)
+sd_x = sqrt((n-1)/n) * sd(dat$Father)
+sd_y = sqrt((n-1)/n) * sd(dat$Son)
+
+# correlation coefficient
+r = cor(dat$Father, dat$Son)
+```
+
+Now let's compute the slope and intercept, and compare them with 
+`reg$coefficients`
+
+```{r}
+# slope
+b1 = r * (sd_y / sd_x)
+b1
+
+# intercept
+b0 = avg_y - (b1 * avg_x)
+b0
+
+# compared with coeffs
+reg$coefficients
+```
+
+
+## Predicting Values
+
+As I mentioned in the last tutorial, regression tools are 
+mainly used for prediction purposes. This means that we can use the estimated 
+regression line $\mathtt{Son} \approx b_0 + b_1 \mathtt{Father}$, to predict 
+the height of Son given a particular Father's height.
+
+For example, if a father has a height of 71 inches, what is the predicted 
+son's height? 
+
+__Option a)__ One way to answer this question is with the regression method described in chapter 10 of FPP. The first step consists of converting $x$ in standard units, then multiplying times $r$ to get the predicted $\hat{y}$ in standard units, and finally rescaling the predicted value to the original units.
+
+```{r}
+# height of father in standard units
+height = 71
+height_su = (height - avg_x) / sd_x
+height_su
+```
+
+```{r}
+# predicted Son's height in standard units
+prediction_su = r * height_su
+prediction_su
+```
+
+```{r}
+# rescaled to original units
+prediction = prediction_su * sd_y + avg_y
+prediction
+```
+
+
+__Option b)__ Another way to find the predicted son's height when the height of the father is 71 is by using the equation of the regression line:
+
+```{r}
+# predict height of son with a 71 in. tall father
+b0 + b1 * 71
+```
+
+__Option c)__ A third option is with the `predict()` function. The first 
+argument must be an `"lm"` object; the second argument must be a data frame 
+containing the values for `Fater`:
+
+```{r}
+# new data (must be a data frame)
+newdata = data.frame(Father = 71)
+
+# predict son's height
+predict(reg, newdata)
+```
+
+If you want to know the predicted values based on several `Father`'s heights, 
+then do something like this:
+
+```{r}
+more_data = data.frame(Father = c(65, 66.7, 67, 68.5, 70.5, 71.3))
+
+predict(reg, more_data)
+```
+
+
+## R.M.S. Error for Regression
+
+The predictions given by the regression line will tend to be off. There is 
+usually some difference between the observed values $y$ and the predicted 
+values $\hat{y}$. This difference is called __residual__. The residuals are 
+part of the `"lm"` object `reg`. 
+You can take a peek at such residuals with `head()`
+
+```{r}
+# first six residuals
+head(reg$residuals)
+```
+
+By how much the predicted values will be off?
+To find the answer, you need to calculate the _Root Mean Square_ (RMS) error 
+for regression. In other words, you need to take the residuals 
+(i.e. difference between actual values and predicted values), and get the
+square root of the average of their squares.
+
+```{r}
+# r.m.s. error for regression
+rms = sqrt(mean(reg$residuals^2))
+rms
+```
+
+The r.m.s. value tells you the typical size of the residuals. This means that 
+the typical predicted heights of sons will be off by about `r round(rms, 2)` 
+inches.
+
+
+## Are residuals homoscedastic?
+
+As you know, the main assumption in a simple regression analysis is that $X$ 
+and $Y$ are approximately linearly related. This means that we can 
+use a line as a good summary for the cloud of points. For a line to able to do 
+a good summarizing job, the amount of spread around the regression line should 
+be fairly the same (i.e. constant). This requirement has a very 
+specific---and rather ugly---name: __homoscedasticity__; which simply means 
+"same scatter". Visually, homoscedascity comes in the form of the so-called 
+football-shaped cloud of points. Or in a more geometric sense, cloud of points 
+with a chiefly elliptical shape.
+
+The `"lm"` object `reg` contains the vector of redisuals (see `reg$residuals`).
+The residuals from the regression line must average out to 0. To confirm this,
+let's get their average:
+
+```{r}
+mean(reg$residuals)
+```
+
+You can take a look at the _residual plot_ by running this command:
+
+```{r out.width='60%', fig.align='center', fig.width=6, fig.height=5}
+# residuals plot
+plot(reg, which = 1)
+```
+
+which is equivalent to this other command:
+
+```{r eval = FALSE}
+# equivalently
+plot(reg$fitted.values, reg$residuals)
+```
+
+This residual plot is not exactly the same that the book describes (pages 187-188).
+To plot the residuals like the book does, you would need to use the `Father` 
+variable in the x-axis:
+
+```{r out.width='60%', fig.align='center', fig.width=6, fig.height=5}
+# residuals plot (as in FPP)
+plot(dat$Father, reg$residuals)
+abline(h = 0, lty = 2)  # horizontal dashed line
+```
+
+The difference is only in the scale of the horizontal axis. But the important 
+part in both plots is the shape of the cloud.
+As you look across the residual plot, there is no systematic tendency for the 
+points to drift up or down. The red line displayed by `plot(reg, which = 1)`, 
+is a regression line for the residuals. When residuals are homoscedastic, this 
+line is basically a horizontal line. This is what you want to see when 
+inspecting the residual plot. Why? Because it supports the appropriate use of 
+the regression line.
+
+
+## Summary output
+
+`reg` is an object of class `"lm"`---linear model. For this type of R object, 
+you can use the `summary()` function to get additional information and diagnostics:
+
+```{r}
+# summarized linear model
+sum_reg = summary(reg)
+sum_reg
+```
+
+The information displayed by `summary()` is the typical output that most 
+statistical programs provide about a simple linear regression model. There 
+are four major parts: 
+
+- `Call`: the command used when invoking `lm()`.
+- `Residuals`: summary indicators of the residuals.
+- `Coefficients`: table of regression coefficients.
+- Additional statistics: more diagnostics toosl.
+
+In the same way that `lm()` produces `"lm"` objects, `summary()` of `"lm"` 
+objects produce `"summary.lm"` objects. This type of objects also contain 
+more information than what is displayed by default. To see the list of all the 
+components in `sum_reg`, you can use again the function `names()`:
+
+```{r}
+names(sum_reg)
+```
+
