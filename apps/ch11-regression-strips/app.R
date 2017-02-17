@@ -68,7 +68,7 @@ server <- function(input, output) {
     axis(side = 1)
     axis(side = 2, las = 1)
     points(dat[,input$xvar], dat[,input$yvar],
-           pch = 21, col = 'white', bg = '#999999aa',
+           pch = 21, col = 'white', bg = '#777777aa',
            lwd = 2, cex = input$cex)
     # vertical strips
     abline(v = c(input$center - input$width, input$center + input$width),
@@ -85,7 +85,7 @@ server <- function(input, output) {
     xmin <- input$center - input$width
     xmax <- input$center + input$width
     child <- dat$Son[dat$Father >= xmin & dat$Father <= xmax]
-    hist(child, main = '', col = '#ACB6F1', las = 1)
+    hist(child, main = '', col = '#ACB6FF', las = 1)
   })
   
 }

@@ -18,7 +18,10 @@ Purves (2007). Fourth Edition. Norton & Company.
 
 ## Data
 
-This app uses the Galton's Height Data as described in [Pearson's Height Data](http://www.math.uah.edu/stat/data/Pearson.csv). The data is in the `pearson.csv` file.
+This app uses the Pearson and Lee's Height Data as described in 
+[Pearson's Height Data](http://www.math.uah.edu/stat/data/Pearson.csv). 
+The data is in the `pearson.csv` file, available in the `data/` folder of 
+the github repository.
 
 
 ## How to run it?
