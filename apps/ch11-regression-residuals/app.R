@@ -23,7 +23,7 @@ dat <- nba[ ,quantitative]
 # Define UI for application that draws a histogram
 ui <- fluidPage(
   # Give the page a title
-  titlePanel("Climbing Ropes"),
+  titlePanel("NBA Players"),
   
   # Generate a row with a sidebar
   sidebarLayout(      
