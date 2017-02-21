@@ -56,4 +56,7 @@ Tentative Calendar, Spring 2017
 	+ In-class: [R.M.S. Error for Regression](https://docs.google.com/presentation/d/1KSws7X-9jr1YWtJwPUmdnooodMqBMzRLjDWhsgq04Iw/edit?usp=sharing) slides
 	+ Practice: script about [Predictions and Errors in Regression with R](../scripts/10-prediction-and-errors-in-regression.pdf)
 	+ In-class: [Regression Line](https://docs.google.com/presentation/d/1bEV8MWCZ6xE2zm5egZXq5wcXOGOnHDJiJvj2tTGMhyI/edit?usp=sharing) slides
+- Feb 20-24
+	+ Regression Line
+	+ __Midterm 1__ Friday Feb-24
 
