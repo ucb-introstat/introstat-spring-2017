@@ -59,4 +59,7 @@ Tentative Calendar, Spring 2017
 - Feb 20-24
 	+ Regression Line
 	+ __Midterm 1__ Friday Feb-24
-
+- FebMar 27-03
+	+ In-class: [Probability Rules (part 1)](https://docs.google.com/presentation/d/1cgU096Vr5Ep30rXoQ68940YbbCM7wvpznsC623Zx5N0/edit?usp=sharing)
+	+ In-class: [Probability Rules (part 2)](https://docs.google.com/presentation/d/1C-bEAHd3naLPxk_WDSrMuWHd9kMdVVo7vh2x9lWaFvc/edit?usp=sharing)
+	+ In-class: [Binomial Formula](https://docs.google.com/presentation/d/1M6Xk1xwAmdewO1K5lVIAOXz45LcIfvrZOgzQs9EXc1c/edit?usp=sharing)
