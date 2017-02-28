@@ -126,7 +126,7 @@ toss <- function(coin, times = 1) {
 ```
 
 To define your own functions you use the homonym 
-function: `function()`. You can define one or more argument inside `function()`.
+function: `function()`. You can define one or more arguments inside `function()`.
 
 Once you've defined a function, you can use it as any other R function:
 
