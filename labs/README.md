@@ -80,7 +80,7 @@ Tentative Calendar, Spring 2017
         Mar 07<br>
         Mar 09</td>
       <td>
-        Ch-15: A6, R1,5,6<br>
+        Ch-15: A3-6, R1,5,6<br>
         Ch-16: A3,4, B1, 3, C1, R6</td>
     </tr>
     <tr>
