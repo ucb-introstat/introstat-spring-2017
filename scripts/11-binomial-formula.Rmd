@@ -286,7 +286,7 @@ choose(n, k) * (p^k) * (1-p)^(n-k)
 It turns out that R provides a dedicated function that allows you to calculate 
 the probability of a binomial process: `dbinom()`.
 
-`binom()` takes three main inputs: 
+`dbinom()` takes three main inputs: 
 
 - `x`: the number of successes
 - `size`: the number of trials
