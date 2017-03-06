@@ -62,7 +62,8 @@ Tentative Calendar, Spring 2017
       <td>7</td>
       <td>Mar 09</td>
       <td>
-        Ch-14: R1,3,5,6,9</td>
+        Ch-14: R1,3,5,6,9<br>
+        and Binomial Probability</td>
     </tr>
     <tr>
       <td>8</td>
