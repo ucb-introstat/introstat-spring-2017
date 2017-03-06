@@ -18,6 +18,8 @@ ui <- fluidPage(
     sidebarPanel(
       numericInput("seed", label = "Random Seed:", 12345, 
                    min = 10000, max = 50000, step = 1),
+      sliderInput("chance", label = "Chance of heads:", 
+                  min = 0, max = 1, value = 0.5, step = 0.01),
       sliderInput("tosses", label = "Number of tosses:", 
                   min = 100, max = 10000, value = 3000, step = 50),
       radioButtons("error", label = "Display",
@@ -48,18 +50,21 @@ server <- function(input, output) {
   tosses <- reactive({
     input$tosses
   })
+  chance <- reactive({
+    input$chance
+  })
   
-  # Proportion of heads
+  # Number of heads
   output$num_heads <- renderPrint({ 
     set.seed(seed())
-    flips <- rbinom(n = tosses(), 1, prob = 0.5)
+    flips <- rbinom(n = tosses(), 1, prob = chance())
     sum(flips)
   })
   
   # Proportion of heads
   output$prop_heads <- renderPrint({ 
     set.seed(seed())
-    flips <- rbinom(n = tosses(), 1, prob = 0.5)
+    flips <- rbinom(n = tosses(), 1, prob = chance())
     round(100 * sum(flips) / tosses(), 2)
   })
   
@@ -67,13 +72,13 @@ server <- function(input, output) {
   output$chancePlot <- renderPlot({
     set.seed(input$seed)
     tosses <- input$tosses
-    flips <- rbinom(n = tosses, 1, prob = 0.5)
+    flips <- rbinom(n = tosses, 1, prob = chance())
     num_heads <- cumsum(flips)
     prop_heads <- (num_heads / 1:tosses)
     num_tosses <- 1:tosses
 
     # Render a barplot
-    difference <- num_heads[num_tosses] - (num_tosses / 2)
+    difference <- num_heads[num_tosses] - (chance() * num_tosses)
     proportion <- prop_heads[num_tosses]
     if (input$error == 1) {
       plot(num_tosses, difference, 
@@ -89,7 +94,7 @@ server <- function(input, output) {
            xlab = 'Number of tosses',
            ylab = 'Proportion of heads',
            axes = FALSE, main = 'Percent Error:  % successes - % expected')
-      abline(h = 0.5, col = '#88888855', lwd = 2, lty = 2)
+      abline(h = chance(), col = '#88888855', lwd = 2, lty = 2)
       axis(side = 2, las = 1, at = seq(0, 1, 0.1))
     }
     axis(side = 1)
