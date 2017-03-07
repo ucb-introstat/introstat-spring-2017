@@ -25,7 +25,7 @@ ui <- fluidPage(
       radioButtons("error", label = "Display",
                    choices = list("Chance error" = 1, 
                                   "Percent error" = 2), 
-                   selected = 1),
+                   selected = 2),
       hr(),
       helpText('Total number of heads:'),
       verbatimTextOutput("num_heads"),
