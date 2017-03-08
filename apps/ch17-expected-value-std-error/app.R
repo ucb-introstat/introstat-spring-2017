@@ -1,6 +1,6 @@
 # Title: Expected Value and Standard Error
 # Description: EV and SE when rolling a die 5 times
-# Chapter 17: The Law of Averages, p 275-278
+# Chapter 17: The EV and SE, p 288-296
 # Author: Gaston Sanchez
 
 library(shiny)
