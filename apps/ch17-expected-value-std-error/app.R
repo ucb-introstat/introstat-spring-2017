@@ -4,6 +4,7 @@
 # Author: Gaston Sanchez
 
 library(shiny)
+source("helpers.R")
 
 # Define UI for application that draws a histogram
 ui <- fluidPage(
