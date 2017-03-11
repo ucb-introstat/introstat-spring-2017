@@ -68,14 +68,14 @@ Tentative Calendar, Spring 2017
     <tr>
       <td>8</td>
       <td>Mar 16</td>
-      <td>Ch-16: A6, B2, R4,9<br>
-        Ch-17: A1, B2, C1, D1, E1, R2<br>
-        Ch-18: B3, B5, C5, R2</td>
+      <td>Ch-16: B2,6, R1,4,9<br>
+        Ch-17: A1, B2, C1, E1, R2</td>
     </tr>
     <tr>
       <td>9</td>
       <td>Mar 23</td>
-      <td>Ch-19: R5,7<br>
+      <td>Ch-18: B3, B5, C5, R2<br>
+        Ch-19: R5,7<br>
         Ch-20: A4, B3, Rev3,4,6</td>
     </tr>
     <tr>
