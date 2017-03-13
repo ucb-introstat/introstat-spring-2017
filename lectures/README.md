@@ -37,6 +37,7 @@ Tentative Calendar, Spring 2017
 	+ Practice: script about [data and variables](../scripts/02-data-variables.pdf)
 - Jan 23-27:
 	+ In-class: [Histograms](https://docs.google.com/presentation/d/1D_QNv8HPBRQGqy3ofiJDuLgOpB-awMwwpMchX9n0My4/edit?usp=sharing) slides
+	+ App: [ch03-histograms](../apps/03-histograms)
 	+ Practice: script about [Histograms in R](../scripts/03-histograms.pdf)
 	+ In-class: [Measures of Center (Average and Median)](https://docs.google.com/presentation/d/15jjBpSkQmYs99S8A2yvGGR4lwusUcJgBXZYU88158pE/edit?usp=sharing)
 	+ Practice: script about [Average and median in R](../scripts/04-measures-center.pdf)
@@ -46,16 +47,20 @@ Tentative Calendar, Spring 2017
 	+ In-class: [Normal Curve](https://docs.google.com/presentation/d/1_6ZEhuTCDvxesw6H99nJxnJz7shMIU9Hzq4GzWzw0dE/edit?usp=sharing) slides
 	+ Practice: script about [normal curve in R](../scripts/06-normal-curve.pdf)
 	+ In-class: [Scatter Diagrams and Correlation](https://docs.google.com/presentation/d/1qLtoiX8CrpHL70lZ8LBQN0F-xHuwEnhpVNZalaBnSM8/edit?usp=sharing) slides
+	+ App: [ch08-corr-coeff-diagrams](../apps/ch08-corr-coeff-diagrams)
 	+ Practice: script about [scatter diagrams in R](../scripts/07-scatter-diagrams.pdf)
 - Feb 06-10:
 	+ In-class: [More about Correlation](https://docs.google.com/presentation/d/1TNmvkcGnhIpZ3N-XLEJwuOcG9tDd6KbdIDzU4K6wivE/edit?usp=sharing) slides
 	+ In-class: [A bit of history about origins of regression](https://docs.google.com/presentation/d/1VBdCiJn_QmfeTsCzP29RlL4ldjripPdrSXkUSYfq0Rc/edit?usp=sharing) auxiliary slides
 	+ In-class: [Intro to Regression Method](https://docs.google.com/presentation/d/10eQJ3DxVVuC00mQ5aEBNb0nWZh8oX-vJ5mCJRQH39VA/edit?usp=sharing) slides
+	+ App: [ch10-heights-data](../apps/ch10-heights-data)
 	+ Practice: script about [Regression Line with R](../scripts/09-regression-line.pdf)
 - Feb 13-17
 	+ In-class: [R.M.S. Error for Regression](https://docs.google.com/presentation/d/1KSws7X-9jr1YWtJwPUmdnooodMqBMzRLjDWhsgq04Iw/edit?usp=sharing) slides
+	+ App: [ch11-regression-residuals](../apps/ch10-heights-data)
 	+ Practice: script about [Predictions and Errors in Regression with R](../scripts/10-prediction-and-errors-in-regression.pdf)
 	+ In-class: [Regression Line](https://docs.google.com/presentation/d/1bEV8MWCZ6xE2zm5egZXq5wcXOGOnHDJiJvj2tTGMhyI/edit?usp=sharing) slides
+	+ App: [ch11-regression-strips](../apps/ch11-regression-strips)
 - Feb 20-24
 	+ Regression Line
 	+ __Midterm 1__ Friday Feb-24
@@ -66,6 +71,12 @@ Tentative Calendar, Spring 2017
 	+ Practice: script about [binomial probability in R](../scripts/11-binomial-formula.pdf)
 - Mar 06-10
 	+ In-class: [Law of Averages](https://docs.google.com/presentation/d/1WDS0RyPXBjo0kgYSC5AIR33Vr78lKbOURXqJ2TMXvtI/edit?usp=sharing)
+	+ App: [ch16-chance-errors](../apps/ch16-chance-errors)
 	+ In-class: [Expected Value and Standard Error](https://docs.google.com/presentation/d/1QCSwf7zN80253dLYUAkZ3C4h01M6rLTFJ33h1tFD9To/edit?usp=sharing)
+	+ App: [ch17-demere-games](../apps/ch17-demere-games)
+	+ App: [ch17-expected-value-std-error](../apps/ch17-expected-value-std-error)
 - Mar 13-17
 	+ In-class: [Probability Histograms and Normal Approximation](https://docs.google.com/presentation/d/1AZ61AYdl1mmT3Uy1XebT8qpTbbR7uqiP0y_n740Vp8E/edit?usp=sharing)
+	+ App: [ch18-roll-dice-sum](../apps/ch18-roll-dice-sum)
+	+ App: [ch18-roll-dice-product](../apps/ch18-roll-dice-product)
+	+ App: [ch18-coin-tossing](../apps/ch18-coin-tossing)
