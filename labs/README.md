@@ -100,8 +100,7 @@ Tentative Calendar, Spring 2017
         Mar 24</td>
       <td>
         Ch-18: B1; C2,7,8, R3,12,13,14<br>
-        Ch-19: A5,6,8,12, R6,12<br>
-        <b>Test 2</b></td>
+        Ch-19: A5,6,8,12, R6,12
     </tr>
     <tr>
       <td>10</td>
@@ -120,7 +119,8 @@ Tentative Calendar, Spring 2017
         Apr 06</td>
       <td>
         Ch-20: A1,2, B1,2<br>
-        Ch-20: C1,3,5</td>
+        Ch-20: C1,3,5<br>
+        <b>Test 2</b></td>
     </tr>
     <tr>
       <td>12</td>
