@@ -71,6 +71,7 @@ Tentative Calendar, Spring 2017
 	+ Practice: script about [binomial probability in R](../scripts/11-binomial-formula.pdf)
 - Mar 06-10
 	+ In-class: [Law of Averages](https://docs.google.com/presentation/d/1WDS0RyPXBjo0kgYSC5AIR33Vr78lKbOURXqJ2TMXvtI/edit?usp=sharing)
+	+ Practice: script about simulating basic [chance process with R](../scripts/12-chance-processes.pdf)
 	+ App: [ch16-chance-errors](../apps/ch16-chance-errors)
 	+ In-class: [Expected Value and Standard Error](https://docs.google.com/presentation/d/1QCSwf7zN80253dLYUAkZ3C4h01M6rLTFJ33h1tFD9To/edit?usp=sharing)
 	+ App: [ch17-demere-games](../apps/ch17-demere-games)
