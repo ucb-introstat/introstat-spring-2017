@@ -27,7 +27,7 @@ ui <- fluidPage(
       helpText('Avg of box, and SD of box'),
       verbatimTextOutput("avg_sd_box"),
       numericInput("draws", label = "Number of Draws:", value = 4,
-                   min = 1, max = 30, step = 1),
+                   min = 1, max = 100, step = 1),
       helpText('Expected Value and SE'),
       verbatimTextOutput("ev_se"),
       hr(),
@@ -99,8 +99,8 @@ server <- function(input, output) {
             xlab = paste("Number of tickets 1"),
             ylab = 'Probability',
             main = paste("Probability Distribution\n", 
-                         "(at least one ticekt 1)"))
-    abline(h = 0.5, col = '#EC5B5B99', lty = 2, lwd = 1.2)
+                         "(# ticekts 1)"))
+    abline(h = 0.5, col = '#EC5B5B99', lty = 2, lwd = 1.4)
   })
   
   # Pareto chart: cumulative percentage of draws
@@ -115,7 +115,7 @@ server <- function(input, output) {
             ylab = 'Percentage',
             main = paste("Empirical Cumulative Relative Frequency\n", 
                          "(at least one ticket 1)"))
-    abline(h = 0.5, col = '#EC5B5B99', lty = 2, lwd = 1.2)
+    abline(h = 0.5, col = '#EC5B5B99', lty = 2, lwd = 1.4)
     lines(freq_aux[-1], cumsum(freqs_draws[-1]), lwd = 3, col = "gray60")
     points(freq_aux[-1], cumsum(freqs_draws[-1]), pch=19, col="gray30")
     text(freq_aux[-1], cumsum(freqs_draws[-1]), 
@@ -130,7 +130,7 @@ server <- function(input, output) {
          xlab = paste('Number of tickets 1 in', input$reps, 'games'),
          ylab = "Gained amount",
          main = "Empirical Gain")
-    abline(h = 0, col = '#EC5B5B99', lty = 2, lwd = 1.2)
+    abline(h = 0, col = '#EC5B5B99', lty = 2, lwd = 1.4)
     axis(side = 1)
     axis(side = 2, las = 1, pos = 0)
     lines(1:input$reps, cumsum(results), lwd = 1.5)
