@@ -64,7 +64,7 @@ server <- function(input, output) {
     from <- floor(below3se) + 1
     to <- ceiling(above3se) + 1
     
-    if (input$tosses >= 10) {
+    if (input$tosses >= 10 & from > 0) {
       xpos <- barplot(probs[from:to], plot = FALSE)
       # Render probability histogram as a barplot
       op = par(mar = c(6.5, 4.5, 4, 2))
