@@ -81,3 +81,5 @@ Tentative Calendar, Spring 2017
 	+ App: [ch18-roll-dice-sum](../apps/ch18-roll-dice-sum)
 	+ App: [ch18-roll-dice-product](../apps/ch18-roll-dice-product)
 	+ App: [ch18-coin-tossing](../apps/ch18-coin-tossing)
+- Mar 20-24
+	+ In-class: [Sample Surveys](https://docs.google.com/presentation/d/1n-zZKPrpCoNqhf1hnDlUNVx-XL_qxdZgwngeKWMULiM/edit?usp=sharing)
