@@ -83,3 +83,4 @@ Tentative Calendar, Spring 2017
 	+ App: [ch18-coin-tossing](../apps/ch18-coin-tossing)
 - Mar 20-24
 	+ In-class: [Sample Surveys](https://docs.google.com/presentation/d/1n-zZKPrpCoNqhf1hnDlUNVx-XL_qxdZgwngeKWMULiM/edit?usp=sharing)
+	+ In-class: [Sample Designs](https://docs.google.com/presentation/d/1KWmjAxrSNM7hRjWPh9veTLl8_FLneJozhA-6OUSLqK8/edit?usp=sharing)
