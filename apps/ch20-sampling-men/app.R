@@ -19,14 +19,16 @@ ui <- fluidPage(
       fluidRow(
         column(5, 
                numericInput("tickets1", "men [1]", 3091,
-                            min = 1, max = 35, step = 1)),
+                            min = 1, max = 4000, step = 1)),
         column(5,
                numericInput("tickets0", "women [0]", 3581,
-                            min = 1, max = 35, step = 1))
+                            min = 1, max = 4000, step = 1))
       ),
+#      helpText('Avg box,  SD box'),
+      verbatimTextOutput("avg_sd_box"),
       numericInput("size", label = "Sample Size (# draws):", value = 100,
                    min = 10, max = 1500, step = 1),
-      sliderInput("reps", label = "Number of samples (reps):", 
+      sliderInput("reps", label = "Number of repetitions:", 
                   min = 50, max = 2000, value = 100, step = 50),
       numericInput("seed", label = "Random Seed:", 12345, 
                    min = 10000, max = 50000, step = 1),
@@ -51,7 +53,15 @@ ui <- fluidPage(
 # Define server logic required to draw a histogram
 server <- function(input, output) {
   
-  num_men <- reactive({
+  # Number of men
+  output$avg_sd_box <- renderPrint({
+    total <- input$tickets1 + input$tickets0
+    avg_box <- input$tickets1 / total
+    sd_box <- sqrt((input$tickets1/total) * (input$tickets0/total))
+    cat(sprintf('Avg = %0.3f,  SD = %0.3f', avg_box, sd_box))
+  })
+
+    num_men <- reactive({
     tickets <- rep(c(1, 0), c(input$tickets1, input$tickets0))
     
     set.seed(input$seed)
