@@ -80,24 +80,20 @@ Tentative Calendar, Spring 2017
     </tr>
     <tr>
       <td>10</td>
-      <td>Apr 06</td>
+      <td>Apr 13</td>
       <td>Ch-21: C5, R2,7<br>
         Ch-23: A2,5, C2, R4,10</td>
     </tr>
     <tr>
       <td>11</td>
-      <td>Apr 13</td>
+      <td>Apr 20</td>
       <td>Ch-26: B5, C1, F1, F7, R2,5,7,8</td>
     </tr>
     <tr>
       <td>12</td>
-      <td>Apr 20</td>
-      <td>Ch-28: R2,3,6,9</td>
-    <tr>
-      <td>13</td>
       <td>Apr 27</td>
-      <td>Ch-29: R4,7,9,11</td>
-    </tr>
+      <td>Ch-28: R2,3,6,9<br>
+      Ch-29: R4,7,9,11</td>
     </tr>
   </tbody>
  </table>
