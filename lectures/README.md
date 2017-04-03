@@ -86,3 +86,6 @@ Tentative Calendar, Spring 2017
 	+ In-class: [Sample Designs](https://docs.google.com/presentation/d/1KWmjAxrSNM7hRjWPh9veTLl8_FLneJozhA-6OUSLqK8/edit?usp=sharing)
 	+ In-class: [Chance Errors in Sampling](https://docs.google.com/presentation/d/1jRFpoepvu7RWwl6fsxPD7wFkdhZk83dlLwzb9SNMXSE/edit?usp=sharing)
 	+ App: [ch20-sampling-men](../apps/ch20-sampling-men)
+- Apr 03-07
+	+ Review
+	+ __Midterm 2__ Friday Apr-07
