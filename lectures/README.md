@@ -88,4 +88,8 @@ Tentative Calendar, Spring 2017
 	+ App: [ch20-sampling-men](../apps/ch20-sampling-men)
 - Apr 03-07
 	+ Review
+	+ In-class: [Accuracy of Percentages](https://docs.google.com/presentation/d/1Ia5dA9BuEHUTX0dxLRJ9RervShAHmtqk8Si8hXPak-0/edit?usp=sharing)
 	+ __Midterm 2__ Friday Apr-07
+- Apr 10-14
+	+ In-class: Confidence Intervals (cont'd)
+	+ App: [ch21-accuracy-percentages](../apps/ch21-accuracy-percentages)
