@@ -82,7 +82,7 @@ Tentative Calendar, Spring 2017
       <td>10</td>
       <td>Apr 13</td>
       <td>Ch-21: A7,8, B4, C6,7, R2,7<br>
-        Ch-23: A2,5, C2, R4,10</td>
+        Ch-23: A2,5, C2, R4,10,12</td>
     </tr>
     <tr>
       <td>11</td>
