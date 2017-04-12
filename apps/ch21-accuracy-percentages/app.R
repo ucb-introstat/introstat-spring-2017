@@ -27,15 +27,12 @@ ui <- fluidPage(
       ),
       helpText('Avg of box, and SD of box'),
       verbatimTextOutput("avg_sd_box"),
-      # helpText('Sum of Box'),
-      # verbatimTextOutput("avg_box"),
-      # helpText('SD of Box'),
-      # verbatimTextOutput("sd_box"),
       hr(),
       sliderInput("draws", label = "Sample size (# draws):", value = 25,
-                   min = 5, max = 200, step = 1),
-      numericInput("reps", label = "Number of samples:", 
+                   min = 5, max = 500, step = 1),
+      numericInput("reps", label = "Number of samples (# reps):", 
                   min = 10, max = 1000, value = 50, step = 10),
+      checkboxInput('param', value = TRUE, label = strong('Show parameter')),
       sliderInput("confidence", label = "Confidence level (%):", value = 68,
                   min = 1, max = 99, step = 1),
       numericInput("seed", label = "Random Seed:", 12345, 
@@ -97,7 +94,7 @@ server <- function(input, output) {
   # Plot with percentage of draws
   output$percentPlot <- renderPlot({
     # Render a barplot
-    avg_draws <- round(sum_draws() / input$draws, 1)
+    avg_draws <- round(sum_draws() / input$draws, 2)
     barplot(table(avg_draws), 
             space = 0, las = 1,
             xlab = 'Percentage',
@@ -125,17 +122,22 @@ server <- function(input, output) {
     ci_cols <- rep('#ff000088', input$reps)
     ci_cols[covers] <- '#0000ff88'
     
-    xlim <- c(min(samples) - ci_factor(input$confidence) * se_perc, 
-              max(samples) + ci_factor(input$confidence) * se_perc)
+    #xlim <- c(min(samples) - ci_factor(input$confidence) * se_perc, 
+    #          max(samples) + ci_factor(input$confidence) * se_perc)
+    xlim <- c(min(samples) - 3 * se_perc, 
+              max(samples) + 3 * se_perc)
     plot(samples, 1:length(samples), axes = FALSE,
          col = '#444444', pch = 21, cex = 0.5,
-         xlim = c(0, 1), 
+         xlim = xlim, 
          ylab = 'Number of samples',
          xlab = "Confidence Intervals",
          main = "Percentage of 1's")
     axis(side = 1, at = seq(0, 1, 0.1))
     axis(side = 2, las = 1)
-    abline(v = avg_box, col = '#0000FFdd', lwd = 2.5)
+    if (input$param) {
+      # display line for parameter
+      abline(v = avg_box, col = '#0000FFdd', lwd = 2.5)
+    }
     segments(x0 = a,
              x1 = b,
              y0 = 1:length(samples),
