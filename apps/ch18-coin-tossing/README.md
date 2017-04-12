@@ -29,5 +29,5 @@ The produced plot is a probability histogram.
 library(shiny)
 
 # Easiest way is to use runGitHub
-runGitHub("introstat-spring-2017", "ucb-introstat", subdir = "tossing-coins")
+runGitHub("introstat-spring-2017", "ucb-introstat", subdir = "ch18-tossing-coins")
 ```
