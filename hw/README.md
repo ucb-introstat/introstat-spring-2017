@@ -87,7 +87,7 @@ Tentative Calendar, Spring 2017
     <tr>
       <td>11</td>
       <td>Apr 20</td>
-      <td>Ch-26: B5, C1, F1, F7, R2,5,7,8</td>
+      <td>Ch-26: B5, C1, F1, F7, R2,5,7,8,9</td>
     </tr>
     <tr>
       <td>12</td>
