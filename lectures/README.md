@@ -18,8 +18,8 @@ Tentative Calendar, Spring 2017
 | 10   | Mar-27	| _Spring Break_              | _Spring Break_          | _Spring Break_        |
 | 11   | Apr-03	| Review	                  | Review	                | __MIDTERM 2__         |
 | 12   | Apr-10	| Ch 21: Accuracy Percentages | Ch 21: Conf. Intervals  | Ch 23: Accuracy Averages|
-| 13   | Apr-17	| Ch 26	                      | Ch 26	                | Ch 27                 |
-| 14   | Apr-24	| Ch 27	                      | Ch 28	                | Ch 28                 |
+| 13   | Apr-17	| Ch 26: Significance Tests   | Ch 26: z-test           | Ch 26: t-test         |
+| 14   | Apr-24	| Ch 27: Two-sample tests     | Ch 28: Chi-square test  | Ch 28: Chi-square test|
 | 15   | May-01	| _RRR_                       | _RRR_                   | _RRR_                 |
 
 
@@ -94,3 +94,7 @@ Tentative Calendar, Spring 2017
 	+ App: [ch21-accuracy-percentages](../apps/ch21-accuracy-percentages)
 	+ In-class: [Accuracy of Averages](https://docs.google.com/presentation/d/1FnUXMu_5qYST5Stou895O_vUjdAULxeyxhvrGImAVEA/edit?usp=sharing)
 	+ App: [ch23-accuracy-averages](../apps/ch23-accuracy-averages)
+- Apr 17-21
+	+ In-class: [Hypothesis Tests](https://docs.google.com/presentation/d/1FQN-qh-plq87aB1d2vOUoi3YVLl6LE28uYUhXS5RFcI/edit?usp=sharing)
+	+ In-class: [One sample z-test](https://docs.google.com/presentation/d/1HhVMfQ0n8iebx527qscSFtj3wHQAqFk2xSSEnitu91g/edit?usp=sharing)
+	+ In-class: [One sample t-test](https://docs.google.com/presentation/d/1GTWOiwk4Gkeh_nXnKKK47hCcE1sWMGT-s9Q313VTUFM/edit?usp=sharing)
