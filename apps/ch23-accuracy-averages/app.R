@@ -37,7 +37,7 @@ ui <- fluidPage(
     mainPanel(
       tabsetPanel(type = "tabs",
                   tabPanel("Sum", plotOutput("sumPlot")),
-                  tabPanel("Percentage", plotOutput("percentPlot")),
+                  tabPanel("Average", plotOutput("averagePlot")),
                   tabPanel("Estimates", plotOutput("intervalPlot"))
       )
     )
@@ -87,15 +87,15 @@ server <- function(input, output) {
             main = sprintf('Sum of Box for %s Draws', input$draws))
   })
   
-  # Plot with percentage of draws
-  output$percentPlot <- renderPlot({
+  # Plot with average of draws
+  output$averagePlot <- renderPlot({
     # Render a barplot
     avg_draws <- round(sum_draws() / input$draws, 2)
     barplot(table(avg_draws), 
             space = 0, las = 1,
-            xlab = 'Percentage',
+            xlab = 'Average',
             ylab = '',
-            main = "Percentage of 1's")
+            main = "Average")
   })
   
   # Plot with confidence intervals
@@ -127,8 +127,8 @@ server <- function(input, output) {
          xlim = xlim, 
          ylab = 'Number of samples',
          xlab = "Confidence Intervals",
-         main = "Percentage of 1's")
-    axis(side = 1, at = seq(0, 1, 0.1))
+         main = "Average")
+    axis(side = 1)
     axis(side = 2, las = 1)
     if (input$param) {
       # display line for parameter
