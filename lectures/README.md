@@ -1,6 +1,8 @@
 ## Lectures
 
-Tentative Calendar, Spring 2017
+Tentative Calendar, Spring 2017.
+
+Material based on __Statistics__ (4th edition) by Freedman, Pisani and Purves. 
 
 
 | Week | Date   | Monday                      | Wednesday               | Friday                |
