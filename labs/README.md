@@ -146,7 +146,7 @@ Tentative Calendar, Spring 2017
         Apr 25<br>
         Apr 27</td>
       <td>
-        Ch-28: A4,6,10, B1,2, C3-6<br>
+        Ch-27: A4,5, B2,3,5, D5,6<br>
         Ch-29: A2, B2,3,4,5,6,7, D2, E2</td>
     </tr>
   </tbody>
