@@ -138,6 +138,7 @@ Tentative Calendar, Spring 2017
         Apr 20</td>
       <td>
         Ch-26: A4,5, B2, C4,5, D3<br>
+        Extra exercises
         </td>
     </tr>
     <tr>
