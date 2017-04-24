@@ -21,7 +21,7 @@ Material based on __Statistics__ (4th edition) by Freedman, Pisani and Purves.
 | 11   | Apr-03	| Review	                  | Review	                | __MIDTERM 2__         |
 | 12   | Apr-10	| Ch 21: Accuracy Percentages | Ch 21: Conf. Intervals  | Ch 23: Accuracy Averages|
 | 13   | Apr-17	| Ch 26: Significance Tests   | Ch 26: z-test           | Ch 26: t-test         |
-| 14   | Apr-24	| Ch 27: Two-sample tests     | Ch 28: Chi-square test  | Ch 28: Chi-square test|
+| 14   | Apr-24	| Ch 27: Two-sample z-test    | Ch 27: Two-sample z-test| Ch 28: Chi-square test|
 | 15   | May-01	| _RRR_                       | _RRR_                   | _RRR_                 |
 
 
@@ -100,3 +100,6 @@ Material based on __Statistics__ (4th edition) by Freedman, Pisani and Purves.
 	+ In-class: [Hypothesis Tests](https://docs.google.com/presentation/d/1FQN-qh-plq87aB1d2vOUoi3YVLl6LE28uYUhXS5RFcI/edit?usp=sharing)
 	+ In-class: [One sample z-test](https://docs.google.com/presentation/d/1HhVMfQ0n8iebx527qscSFtj3wHQAqFk2xSSEnitu91g/edit?usp=sharing)
 	+ In-class: [One sample t-test](https://docs.google.com/presentation/d/1GTWOiwk4Gkeh_nXnKKK47hCcE1sWMGT-s9Q313VTUFM/edit?usp=sharing)
+- Apr 24-28
+	+ In-class: [Two sample z-test](https://docs.google.com/presentation/d/19PpdMovtJSbydDAc1Mv1wh3Mu5YWT0dFCh5aPcdE6dU/edit?usp=sharing)
+
