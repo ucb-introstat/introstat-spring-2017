@@ -21,7 +21,7 @@ Material based on __Statistics__ (4th edition) by Freedman, Pisani and Purves.
 | 11   | Apr-03	| Review	                  | Review	                | __MIDTERM 2__         |
 | 12   | Apr-10	| Ch 21: Accuracy Percentages | Ch 21: Conf. Intervals  | Ch 23: Accuracy Averages|
 | 13   | Apr-17	| Ch 26: Significance Tests   | Ch 26: z-test           | Ch 26: t-test         |
-| 14   | Apr-24	| Ch 27: Two-sample z-test    | Ch 27: Two-sample z-test| Ch 28: Chi-square test|
+| 14   | Apr-24	| Ch 27: Two-sample z-test    | Ch 27: Two-sample z-test| Ch 29: More about tests |
 | 15   | May-01	| _RRR_                       | _RRR_                   | _RRR_                 |
 
 
