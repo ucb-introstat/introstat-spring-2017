@@ -25,8 +25,8 @@ Material based on __Statistics__ (4th edition) by Freedman, Pisani and Purves.
 | 15   | May-01	| _RRR_                       | _RRR_                   | _RRR_                 |
 
 
-- May-09: __Final Stat 131A__
-- May-10: __Final Stat 20__
+- May-09: __Final Stat 131A__, 11:30-2:30pm in Birge 50
+- May-10: __Final Stat 20__, 3:00-6:00pm in VLSB 2050
 
 -----
 
