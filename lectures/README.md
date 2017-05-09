@@ -102,4 +102,8 @@ Material based on __Statistics__ (4th edition) by Freedman, Pisani and Purves.
 	+ In-class: [One sample t-test](https://docs.google.com/presentation/d/1GTWOiwk4Gkeh_nXnKKK47hCcE1sWMGT-s9Q313VTUFM/edit?usp=sharing)
 - Apr 24-28
 	+ In-class: [Two sample z-test](https://docs.google.com/presentation/d/19PpdMovtJSbydDAc1Mv1wh3Mu5YWT0dFCh5aPcdE6dU/edit?usp=sharing)
-
+- May 01-05
+	+ RRR Week
+- May 07-12
+	+ __Final: Stat 131A__ Tue May-09
+	+ __Final: Stat 20__ Wed May-10
