@@ -40,5 +40,5 @@ and the confidence intervals of the drawn samples.
 library(shiny)
 
 # Easiest way is to use runGitHub
-runGitHub("introstat-spring-2017", "ucb-introstat", subdir = "ch21-accuracy-percentages")
+runGitHub("introstat-spring-2017", "ucb-introstat", subdir = "apps/ch21-accuracy-percentages")
 ```
