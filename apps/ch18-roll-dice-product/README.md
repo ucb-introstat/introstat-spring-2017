@@ -33,5 +33,5 @@ There are two tabs:
 library(shiny)
 
 # Easiest way is to use runGitHub
-runGitHub("introstat-spring-2017", "ucb-introstat", subdir = "ch18-roll-dice-product")
+runGitHub("introstat-spring-2017", "ucb-introstat", subdir = "apps/ch18-roll-dice-product")
 ```
