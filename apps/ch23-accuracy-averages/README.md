@@ -37,5 +37,5 @@ and the confidence intervals of the drawn samples (i.e. sample averages)
 library(shiny)
 
 # Easiest way is to use runGitHub
-runGitHub("introstat-spring-2017", "ucb-introstat", subdir = "ch23-accuracy-averages")
+runGitHub("introstat-spring-2017", "ucb-introstat", subdir = "apps/ch23-accuracy-averages")
 ```
