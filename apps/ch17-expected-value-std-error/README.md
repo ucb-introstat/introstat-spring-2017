@@ -26,5 +26,5 @@ A bar-chart of frequencies for the sum of draws is displayed.
 library(shiny)
 
 # Easiest way is to use runGitHub
-runGitHub("introstat-spring-2017", "ucb-introstat", subdir = "ch17-expected-value-std-error")
+runGitHub("introstat-spring-2017", "ucb-introstat", subdir = "apps/ch17-expected-value-std-error")
 ```
