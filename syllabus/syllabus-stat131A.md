@@ -64,8 +64,11 @@ I firmly believe that one cannot do statistical computations without the help of
 - The final exam is currently scheduled for Tuesday, May 9th from 11:30am-2:30pm. (classroom to be announced).
 - If you do not take the final, you will NOT pass the class.
 - There will be __no early or makeup exams__.
-- To ask for regrading, you must answer a test using pen. Tests answered with pencil will not be accepted for regrading.
+- ~~To ask for regrading, you must answer a test using pen. Tests answered with pencil will not be accepted for regrading.~~
+- We will use _gradescrope_ to grade your tests (so you can use pen or pencil).
 - When asking for regrading, please clearly state the reasons that make you think you deserve a higher score.
+- You will have one full week after grades are published on gradescope to request a regrade.
+- After the regrade deadline, no requests will be considered.
 
 
 ### Grading Structure
