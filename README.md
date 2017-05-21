@@ -8,14 +8,14 @@ This repository holds the course materials for the Spring 2017 edition of:
 
 ## Contents
 
-- [Syllabus](syllabus)
-- [Lectures](lectures)
-- [HW Assignments](hw)
-- [Labs](labs)
-- [Scripts](scripts)
-- [Apps](apps)
-- [Data](data)
-- [Other](other)
+- [Syllabus](syllabus): Course logistics and policies.
+- [Lectures](lectures): Calendar of weekly topics, and lectures material.
+- [HW Assignments](hw): Weekly assignments.
+- [Labs](labs): Topics from textbook for lab.
+- [Scripts](scripts): Tutorial R scripts.
+- [Apps](apps): Shiny apps used in lecture's demos.
+- [Data](data): Data sets.
+- [Other](other): Other resources (e.g. tables, articles).
 
 
 ## R and RStudio
